@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+blog about Raspberry Pi SBC with tips, reviews, tests. Also tips for different operating systems and software for the Raspberry Pi and Linux in general.
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[don.marcos@gmx.net](mailto:don.marcos@gmx.net)
