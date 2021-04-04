@@ -11,7 +11,7 @@ What we do to get our Raspi running is:
 
 1. we will install a light version of Raspberry OS on a micro sd-card
 2. this "primer os" will be used to update the boot eeprom of the Raspi and enable USB booting
-3. then we transfer Raspberry OS to our SSD with the aid of another PC.
+3. then we install Raspberry OS to our SSD with the aid of another PC.
 4. then we will boot this OS from SSD and setup everything else
 
 #### Step-by-step instructions to get your Raspberry running:
@@ -22,7 +22,7 @@ _Hint_: The hardware setup is described on the box of the Raspi and the box of t
 
 1.) Goto
 [raspberrypi.org][raspi-org]
-and download and install the Raspberry Pi Imager for Windows, macOS or Ubuntu. If you are a linux user and do not like the Raspberry Pi Imager you could download the "Raspberry Pi OS Lite" image from:
+and download and install the Raspberry Pi Imager for Windows, macOS or Ubuntu. If you are a linux user and do not like the Raspberry Pi Imager you could download the "Raspberry Pi OS Lite" image directly from:
 [raspberrypi.org/software][raspi-org-software]
 
 2.) Launch the imager, insert the micro-SD-card, then choose "Raspberry Pi OS Lite (32bit)" and write it to your memory card. If you don't want to use the Imager, you copy the downloaded image to the card with the following command:
@@ -52,9 +52,9 @@ and _sdd_ would be the right name for your card reader (could be sda, sdb, sdc a
 
 5.) optional: on some displays the Raspberry chooses the wrong resolution, on mine for instance it chose a 4K resolution, but my display only supports 2560x1440, so everything was hard to read. If that is the case goto "6 Advanced Options", then "2 GL Driver" and select "G2 GL (Fake KMS) driver". Hit OK, then finish and reboot. After that start raspi-config again and goto "2 Display Options", where you can choose your desired resolution.
 
-6.) Goto "5 Localisation Options", choose keyboard layout, language and country for your wifi network.
+6.) Now we will adjust the fan settings, its annoying if it runs permanently: Goto "4 Performance Options", choose "P4 Fan" to enable the fan control, let the GPIO value of 14 at its default and choose 75°C as the temperature for the fan to engage. Then reboot to get a quiet Raspi.
 
-7.) Then select "1 System Options" -> "Wireless LAN" - here you can select your home wifi (you could also connect your Raspberry with an ethernet cable to your router of course).
+7.) Then select "1 System Options" -> "Wireless LAN" - here you can select your home wifi (you could also connect your Raspberry with an ethernet cable to your router of course). If you want to connect to your Raspberry remotely via SSH, you select  "3 Interface Options" then "P2 SSH".
 
 8.) Now we have to update the system, execute the following commands in the terminal:
 ~~~
@@ -73,7 +73,7 @@ The current version of Raspberry OS will also update the boot EEPROM of your Ras
 > sudo raspi-config
 ~~~
 
-Then select "6 Advanced Options" and "A6 Boot Order". And finally choose "B2 USB Boot", then shutdown the system:
+Then select "6 Advanced Options" and "A7 Bootloader Version" and "E1 Latest". After that go to "6 Advanced Options" -> "A6 Boot Order" -> "B2 USB Boot", then shutdown the system:
 
 ~~~
 > sudo shutdown -h now
@@ -83,7 +83,7 @@ We are done with the hardware setup. Time for another coffee break :)
 
 Now connect your SSD to another PC and transfer "Raspberry OS Lite" to your drive, the same way you installed the OS to the memory card at point 2.)
 
-Once that is done, connect the drive to a (blue) USB 3.0 port on the Raspberry and power up. If it does boot up, **scroll** **down** to the new point 1.) **below** to finish setup, if you are unlucky and your Raspberry will not boot (screen stays black for more than 30 seconds) then your SATA to USB adapter does most probably not support UASP, and we have to work around this:
+Once that is done, connect the drive to a (blue) USB 3.0 port on the Raspberry, remove the memory card and power up. If it does boot up, **scroll** **down** to the new point 1.) **below** to finish setup, if you are unlucky and your Raspberry will not boot (screen stays black for more than 30 seconds) then your SATA to USB adapter does most probably not support UASP, and we have to work around this:
 
 * power off
 * re-insert your micro sd card, disconnect the SSD
@@ -132,19 +132,19 @@ We now have modified the kernel bootline to instruct the kernel to use Bulk Only
 
 The performancec impact is significant though. I have tested read speeds with a controller that does not support UASP and it maxed out at 150 MB/sec. The JSAUX cable I mentioned in the first post, is fully compatible with the Raspberry Pi and it reaches read speeds of 340 MB/sec. So, in the long run you should either look for a fully compatible adapter or hope that the Raspberry foundation updates the firmware for the Raspi to support all USB 3.0 adapters with UASP.
 
-Anyways shutdown the system as described before, re-connect the SSD to as USB 3.0 port and power up the Raspberry. Let's hope that everything is up and running in a few seconds :)
+Anyways shutdown the system as described before, re-connect the SSD to a USB 3.0 port and power up the Raspberry. Let's hope that everything is up and running in a few seconds :)
 
 Once your Raspberry Pi finishes booting from the SSD you can set up the rest of the system:
 
-1.) Again log in with user pi and password raspberry
+1.) Again log in with user pi and password raspberry, change default password with the command "passwd"
 
 2.) execute sudo raspi-config
 
-3.) If the resolution does not fit your monitor activate the GL driver: "6 Advanced Options" -> "2 GL Driver", select "G2 GL (Fake KMS) driver. Finish and reboot
+3.) If the resolution does not fit your monitor activate the GL driver: "6 Advanced Options" -> "2 GL Driver", select "G2 GL (Fake KMS) driver. Finish and reboot, select a desired resolution afterwards.
 
 4.) In raspi-config go to "5 Localisation Options" and set everything as desired
 
-5.) Select "4 Performance Options" -> "P4 Fan" activate. Let the GPIO-value at 14 and choose a temperature for the fan to engage. I chose 75°C, which results in a idle fan most of the time, and prevents the Raspberry from reaching 80° and clocking down.
+5.) Select "4 Performance Options" -> "P4 Fan" activate. Let the GPIO-value at 14 and choose a temperature for the fan to engage. I chose 75°C, which results in a idle fan most of the time, and prevents the Raspberry from reaching 80° and clocking down. Reboot if you want to enable fan control now.
 
 6.) At "1 System Options" set up your wifi network if you don't use an ethernet cable
 
@@ -154,6 +154,8 @@ Once your Raspberry Pi finishes booting from the SSD you can set up the rest of 
 > sudo apt update
 > sudo apt full-upgrade
 ~~~
+
+8.) Check if the boot order is still set correctly. If not set USB boot in the Advanced Options menu as done before.
 
 That was a lot of configuration, but congratulations: You have now successfully installed Raspberry OS on your SSD! :)
 
@@ -168,4 +170,4 @@ Created with [jekyll][jekyll-link]
 [jekyll-link]: https://jekyllrb.com/
 [raspi-org]: https://www.raspberrypi.org/software/
 [raspi-org-software]: https://www.raspberrypi.org/software/operating-systems/
-[lastpost]: http://127.0.0.1:4000/raspberry/pi/4/2021/03/29/raspi4_start.html
+[lastpost]: ../raspi4_start/
