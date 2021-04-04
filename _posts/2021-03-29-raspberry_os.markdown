@@ -67,11 +67,7 @@ The current version of Raspberry OS will also update the boot EEPROM of your Ras
 
 9.) sudo reboot (*sigh*)
 
-10.) Now that the OS is up to date, the last step is to change the boot order. Run:
-
-~~~
-> sudo raspi-config
-~~~
+10.) Now that the OS is up to date, the last step is to change the boot order. Run sudo raspi-config.
 
 Then select "6 Advanced Options" and "A7 Bootloader Version" and "E1 Latest". After that go to "6 Advanced Options" -> "A6 Boot Order" -> "B2 USB Boot", then shutdown the system:
 
@@ -107,7 +103,7 @@ usb 1-1.3: Product: USB to SATA bridge
 and write down the digits after _idVendor=_ and _idProduct=_ (in this example: 152d and 2578).
 
 We now have to tell the kernel that it must not use the UAS protocol for this device, when it boots up.
-From the terminal start an editor:
+From the terminal mount the boot partition of the SSD and start an editor:
 
 ~~~
 sudo mkdir /mnt/boot
@@ -130,7 +126,7 @@ Make sure that there still is only _one_ line in the file, then hit ctrl-X and c
 
 We now have modified the kernel bootline to instruct the kernel to use Bulk Only Transport (BOT) communication protocol for your SSD drive. Alas, this means it will not perform at full USB 3.0 speed, but at least it is able to boot from the SSD and use it as the system drive.
 
-The performancec impact is significant though. I have tested read speeds with a controller that does not support UASP and it maxed out at 150 MB/sec. The JSAUX cable I mentioned in the first post, is fully compatible with the Raspberry Pi and it reaches read speeds of 340 MB/sec. So, in the long run you should either look for a fully compatible adapter or hope that the Raspberry foundation updates the firmware for the Raspi to support all USB 3.0 adapters with UASP.
+The performancec impact is significant though. I have tested read speeds with a controller that does not support UASP and it maxed out at 150 MB/sec. The JSAUX cable I mentioned in the first post, is fully compatible with the Raspberry Pi and reaches read speeds of 340 MB/sec. So, in the long run you should either look for a fully compatible adapter or hope that the Raspberry foundation updates the firmware for the Raspi to support all USB 3.0 adapters with UASP.
 
 Anyways shutdown the system as described before, re-connect the SSD to a USB 3.0 port and power up the Raspberry. Let's hope that everything is up and running in a few seconds :)
 
