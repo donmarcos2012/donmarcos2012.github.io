@@ -50,7 +50,7 @@ and _sdd_ would be the right name for your card reader (could be sda, sdb, sdc a
 > sudo raspi-config
 ~~~
 
-5.) optional: on some displays the Raspberry chooses the wrong resolution, on mine for instance it chose a 4K resolution, but my display only supports 2560x1440, so everything was hard to read. If that is the case goto "6 Advanced Options", then "2 GL Driver" and select "G2 GL (Fake KMS) driver". Hit OK, then finish and reboot. After that start raspi-config again and goto "2 Display Options", where you can choose your desired resolution.
+5.) optional: on some displays the Raspberry chooses the wrong resolution, on mine for instance it chose a 4K resolution, but my display only supports 2560x1440, so everything was hard to read. If that is the case goto "2 Display Options", then "1 Resolution" and select a better option (could be that your displays resolution is not available, but it will once we set up a desktop environment. Hit OK, then finish and reboot. After that start raspi-config again.
 
 6.) Now we will adjust the fan settings, its annoying if it runs permanently: Goto "4 Performance Options", choose "P4 Fan" to enable the fan control, let the GPIO value of 14 at its default and choose 75°C as the temperature for the fan to engage. Then reboot to get a quiet Raspi.
 
@@ -63,7 +63,7 @@ and _sdd_ would be the right name for your card reader (could be sda, sdb, sdc a
 ~~~
 (this will take a while...)
 
-The current version of Raspberry OS will also update the boot EEPROM of your Raspberry. There is no need to install rpi-eeprom (or any other additional packages) and no further steps need to be taken. If you read something like this on other pages, this information is outdated.
+The current version of Raspberry OS will also update the boot EEPROM of your Raspberry. There is no need to install rpi-eeprom (or any other additional packages) and no further steps need to be taken. If you read something like this on other pages, then this is outdated.
 
 9.) sudo reboot (*sigh*)
 
@@ -126,7 +126,7 @@ Make sure that there still is only _one_ line in the file, then hit ctrl-X and c
 
 We now have modified the kernel bootline to instruct the kernel to use Bulk Only Transport (BOT) communication protocol for your SSD drive. Alas, this means it will not perform at full USB 3.0 speed, but at least it is able to boot from the SSD and use it as the system drive.
 
-The performancec impact is significant though. I have tested read speeds with a controller that does not support UASP and it maxed out at 150 MB/sec. The JSAUX cable I mentioned in the first post, is fully compatible with the Raspberry Pi and reaches read speeds of 340 MB/sec. So, in the long run you should either look for a fully compatible adapter or hope that the Raspberry foundation updates the firmware for the Raspi to support all USB 3.0 adapters with UASP.
+The performancec impact is significant though. I have tested read speeds with a controller that does not support UASP and it maxed out at 143 MB/sec. The JSAUX cable I mentioned in the first post, is fully compatible with the Raspberry Pi and reaches read speeds of 327 MB/sec. So, in the long run you should either look for a fully compatible adapter or hope that the Raspberry foundation updates the firmware for the Raspi to support all USB 3.0 adapters with UASP.
 
 Anyways shutdown the system as described before, re-connect the SSD to a USB 3.0 port and power up the Raspberry. Let's hope that everything is up and running in a few seconds :)
 
