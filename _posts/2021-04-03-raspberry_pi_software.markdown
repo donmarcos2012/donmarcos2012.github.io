@@ -12,17 +12,17 @@ You are encouraged to adapt this to your liking.
 ### Basic Settings
 
 1. First you should set the desired screen resolution in case the Raspberry's auto-detection got it wrong: 
-Right click somewhere the the empty desktop and select Applications -> Settings -> Display
+Right click somewhere on the empty desktop and select Applications -> Settings -> Display
 2. Enable auto-login: Again right click somewhere on empty space and select Applications -> System -> Xfce Terminal. Start sudo raspi-config. Then Select "1 System Options -> S5 "Boot / Auto Login" -> "B4 Desktop Autologin"
 3. You can see all available settings by launching "Applications -> Settings -> Settings Manager.
-You also launch applications with the Launcher in the upper left corner, but I suggest to replace this launcher with:
+You can also launch applications with the Launcher in the upper left corner, but I suggest to replace this launcher with:
 
-#### The Whisker Menu
+### The Whisker Menu
 
 The default applications menu of XFCE seems a little old-fashioned. The Whisker Menu is more streamlined and is in itself customizable. It is easily activated: Right click on the top panel and select "Panel > Add new items". Scroll down the list and choose the Whisker Menu. Then right click on the whisker symbol and select Move to move it to the desired position in the panel. When that is done, right click on the Launcher and select "remove".
 The Whisker Menu has many customization options, access them by right clicking and selecting "Properties".
 
-#### Essential software packages
+### Essential software packages
 
 There is not much software installed with the Xfce Desktop, not even a browser. Let's change this: Select the terminal window (or restart it). The command to install new packages is:
 ~~~
