@@ -26,12 +26,12 @@ The Whisker Menu has many customization options, access them by right clicking a
 
 There are countless ways to change the look of the desktop environment. As an example, I will only show one way here to change the design of the desktop, as it is highly a subjective matter:
 
-1.) Install the murrine-engine: sudo apt install gtk2-engines-murrine
-2.) Download the Pro-Dark-Theme for Xfce: [PRO-Dark-XFCE-Edition](https://www.xfce-look.org/p/1207818/). Under Files you will want to select the "PRO-dark-XFCE-4.14.tar.xz" version (the latest).
-3.) Create a hidden themes-folder in your home directory: mkdir ./themes
-4.) Extract the contents of the package to ~/.themes/PRO-dark-XFCE-4.14
-5.) Goto Settings -> Window Manager and select the style.
-6.) Log out and back in.
+1. Install the murrine-engine: sudo apt install gtk2-engines-murrine
+2. Download the Pro-Dark-Theme for Xfce: [PRO-Dark-XFCE-Edition](https://www.xfce-look.org/p/1207818/). Under Files you will want to select the "PRO-dark-XFCE-4.14.tar.xz" version (the latest).
+3. Create a hidden themes-folder in your home directory: mkdir ./themes
+4. Extract the contents of the package to ~/.themes/PRO-dark-XFCE-4.14
+5. Goto Settings -> Window Manager and select the style.
+6. Log out and back in.
 
 ### Essential software packages
 
