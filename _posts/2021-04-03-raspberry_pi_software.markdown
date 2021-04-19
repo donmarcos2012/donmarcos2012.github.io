@@ -22,6 +22,16 @@ You can also launch applications with the Launcher in the upper left corner, but
 The default applications menu of XFCE seems a little old-fashioned. The Whisker Menu is more streamlined and is in itself customizable. It is easily activated: Right click on the top panel and select "Panel > Add new items". Scroll down the list and choose the Whisker Menu. Then right click on the whisker symbol and select Move to move it to the desired position in the panel. When that is done, right click on the Launcher and select "remove".
 The Whisker Menu has many customization options, access them by right clicking and selecting "Properties".
 
+### Customizing the look of Xfce
+
+There are countless ways to change the look of the desktop environment. As an example, I will only show one way here to change the design of the desktop, as it is highly a subjective matter:
+1.) Install the murrine-engine: sudo apt install gtk2-engines-murrine
+2.) Download the Pro-Dark-Theme for Xfce: [PRO-Dark-XFCE-Edition](https://www.xfce-look.org/p/1207818/). Under Files you will want to select the "PRO-dark-XFCE-4.14.tar.xz" version (the latest).
+3.) Create a hidden themes-folder in your home directory: mkdir ./themes
+4.) Extract the contents of the package to ~/.themes/PRO-dark-XFCE-4.14
+5.) Goto Settings -> Window Manager and select the style.
+6.) Log out and back in.
+
 ### Essential software packages
 
 There is not much software installed with the Xfce Desktop, not even a browser. Let's change this: Select the terminal window (or restart it). The command to install new packages is:
