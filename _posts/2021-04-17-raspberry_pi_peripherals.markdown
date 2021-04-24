@@ -16,6 +16,7 @@ Some peripherals are faulty in itself: For instance, I have a power switch that 
 The solution is a powered USB-Hub. I've tested one from [atolla.us][atolla-us]: The [USB 3.0 Hub Set (204K)][model204k]. It has four ports, each with a seperate on/off switch, and a fifth port for charging other devices, like cellphones. The power adapter for this hub has 15 watts, which should be sufficient for powering hard drives, SSDs and whatever comes to your mind.
 
 ![atolla hub img](/images/atolla_hub01_scaled.jpg)
+
 (picture © atolla  2021 used with kind permission) 
 
 
