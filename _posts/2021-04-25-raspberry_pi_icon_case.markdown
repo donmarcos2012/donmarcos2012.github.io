@@ -6,7 +6,7 @@ categories: Raspberry Pi 4, case
 ---
 ### More room for Raspi
 
-I recently tried another case for my Raspberry Pi: [52pi-icon][52pi-icon-case]
+I recently tried another case for my Raspberry Pi: [52pi Icon case][52pi-icon-case]
 It has active cooling (more on that in the next blog entry), has a little more room than the genuine case and looks like a bonsai tower PC :)
 
 It can also be deployed in different positions: flat, or upright in two variants. The upright position has an advantage: When the Raspi is vertically aligned it dissipates heat better than when horizontally aligned.
@@ -23,7 +23,7 @@ For this reason I have tinkered a simple PWM-regulation for the fan and because 
 
 ### Conclusion
 
-If you do not have a case yet for your Raspberry Pi 4 yet, this is a good option. It is reasonaby priced at around 10€ or 11$ and well made. Assembly is easy and quick, everything fits perfectly together. The red stripes are stickers, so you need some care and a pair of pincers when applying them to the case. There are two sets included, just in case you would mess up on the first try :)
+If you do not have a case for your Raspberry Pi 4 yet, this is a good choice. It is reasonaby priced at around 10€ or 11$ and well made. Assembly is easy and quick, everything fits perfectly together. The red stripes are stickers, so you need some care and a pair of pincers when applying them to the case. There are two sets included, just in case you would mess up on the first try :)
 
 If you need a case with active cooling this is probably a very good choice (I did not test any other cases yet), because it just works and has many options: Positioning, mounting the rear plate, possibility to install a regulation for the fan. You could also replace the fan with another 40mm-fan with different specs.
 
