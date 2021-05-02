@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "(almost) silent cooling"
-date:   2021-04-25 16:30:06 +0200
+date:   2021-04-26 16:30:06 +0200
 categories: Raspberry Pi 4, fancontrol
 ---
 ### Silent cooling
