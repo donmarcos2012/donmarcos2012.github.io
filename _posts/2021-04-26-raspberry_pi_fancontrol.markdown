@@ -133,9 +133,9 @@ try:
     fanc.ChangeDutyCycle(fanSpeed)
     time.sleep(WAIT_TIME)
 
-# If a keyboard interrupt occurs (ctrl + c), the GPIO is set to 0 and the program exits.
+# keyboard interprintto stop script.
 except KeyboardInterrupt:
-  print("Fan ctrl interrupted by keyboard")
+  print("fancontrol stopped")
   GPIO.cleanup()
   sys.exit()
 ~~~
