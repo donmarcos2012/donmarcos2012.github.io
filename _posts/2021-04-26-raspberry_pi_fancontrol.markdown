@@ -133,7 +133,7 @@ try:
     fanc.ChangeDutyCycle(fanSpeed)
     time.sleep(WAIT_TIME)
 
-# keyboard interprintto stop script.
+# keyboard interrupt to stop script.
 except KeyboardInterrupt:
   print("fancontrol stopped")
   GPIO.cleanup()
