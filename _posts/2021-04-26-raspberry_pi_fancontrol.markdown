@@ -166,7 +166,7 @@ speedSteps = [0, 100, 100, 100]
 ~~~
 
 With these values the fan turns on to full speed when the CPU reaches 65° and turns off, once it cools down to 56°. 
-I have already ordered another fan which (hopefully) is better suited to PWM controlling and does not make rattling noised when throttled to values below 100%.
+I have already ordered another fan which (hopefully) is better suited to PWM controlling and does not make a rattling noise when throttled to values below 100%.
 
 Thanks for reading!
 
