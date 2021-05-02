@@ -4,7 +4,7 @@ title:  "(almost) silent cooling"
 date:   2021-04-26 16:30:06 +0200
 categories: Raspberry Pi 4, fancontrol
 ---
-### Silent cooling
+### Controlled cooling
 
 The Icon case comes with active cooling in the form of a fan, but, as with most other cases, there is no possibility to control the fan - it is running at full speed all the time (or not at all if you decide to not connect it). Some of these fans are quite noisy, so some people connect the fan to the 3.3V pin on the GPIO. However, this should not be done, as the power requirement for these fans is sometimes too high for the 3.3V regulator on the Raspi!
 
@@ -89,11 +89,11 @@ import time
 import sys
 
 # Configuration
-FAN_PIN = 21   # BCM pin used for PWM of transistor base
+FAN_PIN = 21   # GPIO pin used for PWM of transistor base
 WAIT_TIME = 2  # refresh interval time
 PWM_FREQ = 20  # Frequency of PWM; change if fan makes rattling noises
 
-# Configurable temperature and fan speed steps, number of steps must be equal!
+# configurable temperature and fan speed steps, number of steps must be equal!
 
 tempSteps = [55, 62, 70, 75]   # [ in degrees celsius ]
 speedSteps = [0, 50, 70, 100]  # [ fan rpm in % ]
@@ -116,7 +116,7 @@ if len(speedSteps) != len(tempSteps):
 
 try:
   while 1:
-    # Read CPU temperature
+    # read CPU temperature from sys
     cpuTempFile = open("/sys/class/thermal/thermal_zone0/temp", "r")
     cpuTemp = float(cpuTempFile.read()) / 1000
     cpuTempFile.close()
