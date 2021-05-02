@@ -33,6 +33,7 @@ Parts list:
 * Q1: bipolar transistor SC 8050 40V 0.5A in TO-92 housing (or similar)
 * diode: 1N4004G 400V, 1A (or 1N4001)
 * R1: resistor 1k, 1 watt
+* M1: your fan (5V)
 * some pins and cables to connect to the GPIO pins on the Raspi
 * a small prototype board
 
