@@ -11,7 +11,7 @@ The Icon case comes with active cooling in the form of a fan, but, as with most 
 A more advanced approach to active cooling is to control the fan speed depending on the cpu temperature. This is easily accomplished as the Raspberry Pi has all the tools to control fans with PWM (pulse width modulation) and Python.
 
 If you are interested in the details you can read more about that:
-[RasPi.TV software PWM][raspi.tv]
+[RasPi.TV software PWM][raspi_tv]
 
 And about the basics of controlling GPIO devices with Python:
 [raspberrypi.org/gpio][raspberrygpio]
@@ -175,6 +175,6 @@ Thanks for reading!
 Created with [jekyll][jekyll-link]
 
 [jekyll-link]: https://jekyllrb.com/
-[raspi.tv]: https://2013/rpi-gpio-0-5-2a-now-has-software-pwm-how-to-use-it
+[raspi_tv]: https://2013/rpi-gpio-0-5-2a-now-has-software-pwm-how-to-use-it
 [raspberrygpio]: https://www.raspberrypi.org/documentation/usage/gpio/python/README.md
 [pinout]: https://pinout.xyz/
