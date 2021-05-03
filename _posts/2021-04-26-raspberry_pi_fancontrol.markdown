@@ -175,6 +175,6 @@ Thanks for reading!
 Created with [jekyll][jekyll-link]
 
 [jekyll-link]: https://jekyllrb.com/
-[raspi_tv]: https://2013/rpi-gpio-0-5-2a-now-has-software-pwm-how-to-use-it
+[raspi_tv]: https://raspi.tv2013/rpi-gpio-0-5-2a-now-has-software-pwm-how-to-use-it
 [raspberrygpio]: https://www.raspberrypi.org/documentation/usage/gpio/python/README.md
 [pinout]: https://pinout.xyz/
