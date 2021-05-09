@@ -19,23 +19,18 @@ After the first boot a few things should be configured:
 sudo apt update
 sudo apt upgrade
 ~~~
-
 2. Set desktop resolution: Click in the upper right corner and select "Settings", then "Display"
-
 3. optional: Install the synaptic package manager from a terminal:
 
 ~~~
 sudo apt install synaptic
 ~~~
-
 4. To be able to access the GPIo-pins of the raspberry you should add yourself to the "dialout" group:
 
 ~~
 sudo adduser <your user name> dialout 
 ~~~
-
 (then log out and back in)
-
 5. install python3-rpi-gpio to access the pins from within python scripts:
 
 ~~~
@@ -57,7 +52,6 @@ sudo apt install libavcodec-extra
 ~~~
 sudo apt install gnome-tweaks
 ~~~
-
 with that you can turn window animations of for a slight speed up: Select "General" -> "Animations off"
 
 I did some rudimentary benchmarks, just to get an impression of how Ubuntu performs in comparsion to the "standard" Raspberry Pi OS 32bit:
