@@ -9,11 +9,11 @@ categories: ubuntu arm
 ![raspberry image](/images/ubuntu_desktop.jpg)
 
 Ubuntu Desktop 21.04 is out and running on the Raspberry Pi and it is running well.
-It is easily installed with the Raspberry Pi Imager on an SD card (16 GB minimum). 4 or 8 GB of main memory are recommened. Of course, you can also install it directly to an SSD.
+It is easily installed with the Raspberry Pi Imager to an SD card (16 GB minimum). 4 or 8 GB of main memory are recommened. Of course, you can also install it directly to an SSD.
 
 After booting you set the usual things like username, locale and so on. The first boot takes quite long, it seems a lot of packages are heavily compressed and have to be unpacked. Once that is done, the system boots rather quick and is snappy.
 
-After the first boot a few things should be configured:
+After the first boot, a few things should be configured:
 
 1. Patch the OS in a terminal window (or wait until the automatic update window pops up):
 ~~~
@@ -25,7 +25,7 @@ sudo apt upgrade
 ~~~
 sudo apt install synaptic
 ~~~
-4. To be able to access the GPIo-pins of the raspberry you should add yourself to the "dialout" group:
+4. To be able to access the GPIo-pins of the Raspberry you must add yourself to the "dialout" group:
 ~~~
 sudo adduser <your user name> dialout 
 ~~~
@@ -51,7 +51,7 @@ Select "General" -> "Animations off"
 
 I did some rudimentary benchmarks, just to get an impression of how Ubuntu performs in comparsion to the "standard" Raspberry Pi OS 32bit:
 
-The first is a test with gtkPerf running fullscreen with default settings, 100 times (results in seconds, lower is better):
+The first is a test with gtkPerf running fullscreen at default settings, 100 times (results in seconds, lower is better):
 
 Raspberry OS LXDE: 14.1s
 
@@ -59,7 +59,8 @@ Raspberry OS Xfce: 106.6s
 
 Ubuntu 21.04: 82.5s
 
-The compositor on Raspberry OS was turned off, for these tests. I was shocked by the poor performance of Xfce, and double-checked the results with fresh installs. Somehow the Xfwm window manager is very slow compared to the others, but I must admit I could not figure out the source of the problem.
+The compositor on Raspberry OS was turned off for these tests. I was shocked by the poor performance of Xfce, and double-checked the results with fresh installs. Somehow the Xfwm window manager is very slow compared to the others, but I must admit I could not figure out the source of the problem.
+
 The LXDE desktop is obviously very fast compared to the others, but all three are quite usable and the difference in practice is only slightly noticable.
 
 The next benchmark was a quick run with glxgears in fullscreen (results in fps, higher is better, vsync was on):
