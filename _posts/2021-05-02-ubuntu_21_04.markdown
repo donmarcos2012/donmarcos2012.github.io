@@ -24,7 +24,7 @@ sudo apt upgrade
 sudo apt install synaptic
 ~~~
 4. To be able to access the GPIo-pins of the raspberry you should add yourself to the "dialout" group:
-~~
+~~~
 sudo adduser <your user name> dialout 
 ~~~
 (then log out and back in)
@@ -49,27 +49,26 @@ I did some rudimentary benchmarks, just to get an impression of how Ubuntu perfo
 
 The first is a test with gtkPerf running fullscreen with default settings, 100 times (results in seconds, lower is better):
 
-|Raspberry OS LXDE |Raspberry OS Xfce |Ubuntu 21.04|
-| ---: | ---: | ---: |
-|14.13 | 106.6 | 82.5|
+Raspberry OS LXDE: 14.1s
+Raspberry OS Xfce: 106.6s
+Ubuntu 21.04: 82.5s
 
 The compositor on Raspberry OS was turned off, for these tests. I was shocked by the poor performance of Xfce, and double-checked the results with fresh installs. Somehow the Xfwm window manager is very slow compared to the others, but I must admit I could not figure out the source of the problem.
 The LXDE desktop is obviously very fast compared to the others, but all three are quite usable and the difference in practice is only slightly noticable.
 
 The next benchmark was a quick run with glxgears in fullscreen (results in fps, higher is better, vsync was on):
 
-|Raspberry OS LXDE |Raspberry OS Xfce |Ubuntu 21.04|
-| ---: | ---: | ---: |
-|59.4 | 24.5 | 59.4|
+Raspberry OS LXDE: 59.4
+Raspberry OS Xfce: 24.5
+Ubuntu 21.04: 59.4
 
 Again, there are obvious problems with Xfce, which I could not track down at the moment. On Ubuntu glxgears can run with vsync turned off, there it scored 82.5 fps, thus performance is very good.
 
 The last benchmark was a youtube video with very demanding settings (fullscreen 2560x1440 resolution, videostream at 1280x720p50). The table shows the dropped frame percentage after 2000 frames (thus, lower is better). You should note that the test was run with different browsers: Chromium 88.0 on Raspberry OS, Firefox 87.0 on Ubuntu, so this test is more a browser comparison:
 
-|Raspberry OS LXDE |Raspberry OS Xfce |Ubuntu 21.04|
-| ---: | ---: | ---: |
-|26.4% | 64.6% | 78.7%|
----
+Raspberry OS LXDE: 26.4%
+Raspberry OS Xfce: 64.6%
+Ubuntu 21.04: 78.7%
 
 Ubuntu comes out last, but this is obviously due to the fact, that Chromium for Raspberry OS is heavily optimized by the Raspberry Foundation. Yet again: Poor performance for Xfce, something is going wrong here. If you watch youtube streams in a window instead of fullscreen modes, performance is much better with all browsers and OS versions.
 
@@ -77,7 +76,9 @@ Ubuntu comes out last, but this is obviously due to the fact, that Chromium for 
 
 Ubuntu 21.04 is a very usable desktop system for the Raspberry Pi 4. The integration of the Wayland compositor is flawless and you won't miss the Xorg server. There is some criticism going around about the Snap package manager, which has some drawbacks. However, if you don't like Snaps you can remove the Ubuntu Snap Store, and install (almost all) packages the conventional way with the debian or the synaptic package mangager.
 
-Ubuntu is a 64 bit OS, that means there are some advantages compared to 32 bit operating systems, like better performance with certain applications (like image processing) and the ability to access more than 4 Gigs of RAM directly. Speaking of RAM: It is recommended to have at least 4 GB of RAM on the Raspberry Pi for Ubuntu, but it can be installed on the 2 Gig-versions, though in that case you can expect some swap activity once you run several programms at the same time.
+Ubuntu is a 64 bit OS, that means there are some advantages compared to 32 bit operating systems, like better performance with certain applications (image processing for instance) and the ability to access more than 4 Gigs of RAM directly.
+
+Speaking of RAM: It is recommended to have at least 4 GB of RAM on the Raspberry Pi for Ubuntu, but it can be installed on the 2 Gig-versions, though in that case you can expect some swap activity once you run several programms at the same time.
 
 Thanks for reading!
 
