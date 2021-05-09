@@ -43,14 +43,18 @@ sudo apt install libavcodec-extra
 ~~~
 sudo apt install gnome-tweaks
 ~~~
-with that you can turn window animations of for a slight speed up: Select "General" -> "Animations off"
+with that you can turn window animations off for a slight speed up:
+
+Select "General" -> "Animations off"
 
 I did some rudimentary benchmarks, just to get an impression of how Ubuntu performs in comparsion to the "standard" Raspberry Pi OS 32bit:
 
 The first is a test with gtkPerf running fullscreen with default settings, 100 times (results in seconds, lower is better):
 
 Raspberry OS LXDE: 14.1s
+
 Raspberry OS Xfce: 106.6s
+
 Ubuntu 21.04: 82.5s
 
 The compositor on Raspberry OS was turned off, for these tests. I was shocked by the poor performance of Xfce, and double-checked the results with fresh installs. Somehow the Xfwm window manager is very slow compared to the others, but I must admit I could not figure out the source of the problem.
@@ -59,7 +63,9 @@ The LXDE desktop is obviously very fast compared to the others, but all three ar
 The next benchmark was a quick run with glxgears in fullscreen (results in fps, higher is better, vsync was on):
 
 Raspberry OS LXDE: 59.4
+
 Raspberry OS Xfce: 24.5
+
 Ubuntu 21.04: 59.4
 
 Again, there are obvious problems with Xfce, which I could not track down at the moment. On Ubuntu glxgears can run with vsync turned off, there it scored 82.5 fps, thus performance is very good.
@@ -67,7 +73,9 @@ Again, there are obvious problems with Xfce, which I could not track down at the
 The last benchmark was a youtube video with very demanding settings (fullscreen 2560x1440 resolution, videostream at 1280x720p50). The table shows the dropped frame percentage after 2000 frames (thus, lower is better). You should note that the test was run with different browsers: Chromium 88.0 on Raspberry OS, Firefox 87.0 on Ubuntu, so this test is more a browser comparison:
 
 Raspberry OS LXDE: 26.4%
+
 Raspberry OS Xfce: 64.6%
+
 Ubuntu 21.04: 78.7%
 
 Ubuntu comes out last, but this is obviously due to the fact, that Chromium for Raspberry OS is heavily optimized by the Raspberry Foundation. Yet again: Poor performance for Xfce, something is going wrong here. If you watch youtube streams in a window instead of fullscreen modes, performance is much better with all browsers and OS versions.
