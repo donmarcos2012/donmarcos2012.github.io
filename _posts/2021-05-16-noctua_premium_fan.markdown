@@ -6,7 +6,7 @@ categories: fan arm noctua
 ---
 ### A premium fan at a premium price
 
-Some cheaper fans like the one included with the Icon Case are not very well suited to PWM-regulation. And if the run at full rpm, they are more or less noisy, mainly because they are rather small and run at high rpms.
+Some cheaper fans like the one included with the Icon Case are not very well suited to PWM-regulation. And if they run at full rpm, they are more or less noisy, mainly because they are rather small and run at high rpms.
 
 Better fans are more expensive, and this is the _one_ drawback of the fan I'm going to review here, the price is around 15€ here in Europe. That is 1.5 times more expensive than the Icon Case that comes _with_ a fan!
 
