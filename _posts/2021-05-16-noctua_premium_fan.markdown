@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A premium fan"
-date:   2021-05-04 12:28:06 +0200
+date:   2021-05-16 12:28:06 +0200
 categories: fan arm noctua
 ---
 ### A premium fan at a premium price
@@ -23,7 +23,7 @@ However, lets install it into the Icon Case, it fits perfectly:
 
 You have to change the Python scripts to control the fan:
 
-* the fan_speed variable's lowest value is 60! The fan will **not** run with lower values, and with lower values than 70 the rotation speed is way too slow
+* the fan_speed variable's lowest value is 60! The fan will **not** run at lower values, and at values lower than 70 the rotation speed is way too slow!
 * change the PWM_FREQ value to 50, the fan runs better then
 
 Now to the premium qualities of this fan: It is **very** silent, at 80% you can barely hear the fan (only if you get very close to the case), and at 100% it is not even remotely annoying. The cooling efficiency is at least as good as the cheaper fan of the Icon Case.
