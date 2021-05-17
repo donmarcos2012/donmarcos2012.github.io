@@ -34,7 +34,7 @@ sudo adduser <your user name> dialout
 ~~~
 sudo apt install python3-rpi-gpio
 ~~~
-You can use the pins the same ways as with Raspberry OS, for example like I did: [control a fan][cooling-link]
+You can use the pins the same way as with Raspberry OS, for example like I did: [control a fan][cooling-link]
 6. Launch Firefox and install the following addons:
 h264ify (to force youtube to send videostreams in h.264-format, this runs better on Raspi)
 ublock origin (block unwanted scripts while surfing)
