@@ -28,7 +28,9 @@ You have to change the Python scripts to control the fan:
 
 Now to the premium qualities of this fan: It is **very** silent, at 80% you can barely hear the fan (only if you get very close to the case), and at 100% it is not even remotely annoying. The cooling efficiency is at least as good as the cheaper fan of the Icon Case.
 
-Conclusion: Noctua holds their promises and sells a fan of excellent quality. The one drawback is the very high price tag (for a 40mm fan). They should cut the costs by selling the fan only, without unneccessary cables and adapters. 
+Conclusion: Noctua holds their promises and sells a fan of excellent quality. The one drawback is the very high price tag (for a 40mm fan). They should cut the costs by selling the fan only, without unneccessary cables and adapters.
+
+Is it worth it? Its the same for all high-priced gadgets: You buy it, if you **want** it, not because you **need** it. Well, there are rare use-cases where you would need this fan. For instance of you want almost silent cooling because you have extremely sensitive ears. But then again, a case with passive (= silent) cooling might be your best bet (if you do not plan to overclock your Raspi - and even then you might use *big*, passive cooling solutions).
 
 Thanks for reading!
 
