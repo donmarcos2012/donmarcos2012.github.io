@@ -2,7 +2,7 @@
 layout: post
 title:  "Nachhaltig reparieren"
 date:   2022-01-08 12:28:06 +0200
-categories: hifi sustainability electronics repair
+categories: hifi sustainability electronics repair nachhaltigkeit unterhaltungselektronik reparatur
 ---
 ### Auferstehung eines HiFi-Verstärkers
 
@@ -26,7 +26,8 @@ Neugierig auf einen Sound-Vergleichstest wurde der Verstärker, ein Pioneer A-50
 
 Der passende CD-Player gleichen Baujahres (Pioneer PD-S502) war sofort angeschlossen, doch aus den Boxen ertönte größtenteils nur Rauschen, Kratzen und Rumpeln - aus dem rechten Kanal manchmal gar nichts. Viele Menschen hätten spätestens jetzt alles zum Elektroschrott gegeben und irgendwas Neues angeschafft. Auch ich habe zumindest recherchiert, was heutzutage eigentlich angeboten wird, um hauptsächlich Musik zu hören. Nach ausführlichem online-Studium der aktuellen Angebote schraubte ich den Pioneer auf und begann mit langwieriger Fehlersuche, die ich an dieser Stelle abkürze:
 
-Mit nützlichen Tipps von [www.hifi-forum.de][hifi-link] wurde schließlich der Quellenwahlschalter (Auswahl der Wiedergabequelle, also z.B. CD, Radio usw.) als wahrscheinlichste Ursache bestimmt. Die Reparatur, bzw. Reinigung, des Motorschalters will ich im folgenden beschreiben (angelehnt an diese Anleitung [old-fidelity-forum.de][repair-link], von mir etwas ausführlicher, und manches etwas einfacher, beschrieben.
+Mit nützlichen Tipps von [www.hifi-forum.de][hifi-link] wurde schließlich der Quellenwahlschalter (Auswahl der Wiedergabequelle, also z.B. CD, Radio usw.) als wahrscheinlichste Ursache bestimmt. Die Reparatur, bzw. Reinigung, des Motorschalters will ich im folgenden beschreiben (angelehnt an diese Anleitung [old-fidelity-forum.de][repair-link]), von mir etwas ausführlicher, und manches etwas einfacher, beschrieben.
+
 Viele Geräte aus den 90ern lassen sich auf ähnlich Weise wieder instand setzen (es gibt sogar Betriebe, die sich auf die Reparatur alter HiFi-Komponenten spezialisiert haben - eine beliebige Suchmaschine hilft, diese Unternehmen zu finden).
 
 Nötig für die Reparatur ist:
@@ -44,7 +45,7 @@ Zuerst entferne man den Deckel, indem man alle Schrauben an der Rückseite entfe
 
 ![mainboard image](/images/bild01a.jpg)
 
-Nun muss die Platine, auf der sich der Schalter befindet, ausgebaut werden. Etwas knifflig sind die Flachbandkabel zu lösen: An den mit rot markierten Pfeilen die weißen Buchsen nach unten drücken, und das Flachband mit gefühlvollem Krafteinsatz nach oben wegzieht (keine Angst, da sind relativ stabile Litzen drin - die müssen das aushalten).
+Nun muss die Platine, auf der sich der Schalter befindet, ausgebaut werden. Etwas knifflig sind die Flachbandkabel zu lösen: An den mit rot markierten Pfeilen die weißen Buchsen nach unten drücken, und das Flachband mit gefühlvollem Krafteinsatz nach oben wegziehen (keine Angst, da sind relativ stabile Litzen drin - die müssen das aushalten).
 
 Jetzt die Verschraubung der Cinch-Buchsen an der Rückseite vom Verstärker lösen, die ungefähren Positionen sind im Bild mit gelben Pfeilen markiert.
 Zuletzt die Platine an den Kunstoffclipsen lösen (3 Stück, blaue Pfeile), dann vorsichtig nach oben aus dem Gehäuse rausnehmen.
