@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nachhaltig modernisieren"
-date:   2022-01-08 12:28:06 +0200
+date:   2023-05-17 12:28:06 +0200
 categories: thinkpad sustainability electronics repair nachhaltigkeit notebooks aufrüsten
 ---
 ### "Elektroschrott" gründlich aufmöbeln
@@ -73,7 +73,7 @@ Vorher empfiehlt es sich, den Lüfter mit einem Kosmetikpinsel von grobem Staub 
 
 Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht.
 
-#### Das Display tauschen
+#### 2. Das Display tauschen
 
 Ich habe lange recherchiert bis ich ein gutes Display fand, was sich zum Tausch eignet. Heutzutage kommt eigentlich nur folgendes Modell in Frage:
 
@@ -100,7 +100,9 @@ Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit P
 
 Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit sanfter Gewalt wieder hereingedrückt. Fertig.
 
-#### Eine SSD einbauen
+#### 3. Eine SSD einbauen
+
+Fortsetzung folgt
 
 
 Created with [jekyll][jekyll-link]
