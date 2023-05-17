@@ -40,7 +40,7 @@ Das Gerät hat, bzw. hatte vor der Modernisierung:
 
 * Keine dedizierte GPU. Das ist gut, denn obwohl das Thinkpad auch mit einer NVIDIA GeForce 730M erhältlich war, ist diese Grafikeinheit veraltet und bietet gegenüber der integrierten Intel HD Graphics heutzutage keine Vorteile. Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet). Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
 
-* eine Windows 7/10 Pro-Lizenz. Fast alle gebrauchten Thinkpads mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
+* eine Windows 7/10 Pro-Lizenz. Fast alle gebrauchten Thinkpads sind mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
 
 * ein DVD-Brenner. Heutzutage nur in seltenen Spezialfällen interessant, kann weg. Bei Thinkpads kann das Laufwerk durch einen sogenannten Ultrabay-Caddy ersetzt werden, in den eine 2,5-Zoll-SSD eingesetzt werden kann. Dies ist großartig, da der verfügbare Massenspeicher bei Bedarf mit wenigen Handgriffen erheblich erweitert werden kann. Es ist sogar möglich, von diesen Laufwerken zu booten. Bravo!
 
