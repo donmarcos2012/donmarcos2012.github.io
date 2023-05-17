@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nachhaltig modernisieren"
-date:   2023-05-17 12:28:06 +0200
+date:   2023-05-16 12:28:06 +0200
 categories: thinkpad sustainability electronics repair nachhaltigkeit notebooks aufrüsten
 ---
 ### "Elektroschrott" gründlich aufmöbeln
@@ -14,7 +14,7 @@ Dabei besteht oft die Möglichkeit, angegraute Hardware zu modernisieren und fü
 
 Anhand eines kürzlich erworbenen alten Notebooks (ein Thinkpad T440p) möchte ich zeigen, was unter Umständen möglich ist. Es ist leider kein einfacher Prozess und er erfordert die Berücksichtigung mehrerer Faktoren:
 
-* Ist eine Aufrüstung wirtschaftlich sinnvoll? Wieviel will oder kann man investieren um ein altes Gerät vor der Entsorgung zu bewahren? Möglicherweise gibt man etwas mehr Geld aus (im Vergleich zum Kauf eines Neugeräts), aber man rettet immerhin das alte Gerät und vermeidet unnötige Abfälle. Manchmal hat man sogar Glück und eine Modernisierung ist mit vergleichsweise geringem finanziellen Aufwand möglich.
+* Ist eine Aufrüstung wirtschaftlich sinnvoll? Wieviel will oder kann man investieren um ein altes Gerät vor der Entsorgung zu bewahren? Ein Aufrüstung kann kostspielig werden aber man rettet immerhin das alte Gerät und vermeidet unnötige Abfälle. Manchmal hat man sogar Glück und eine Modernisierung ist mit vergleichsweise geringem finanziellen Aufwand möglich.
 
 * Welche Komponenten *können* erneuert werden? Reichen meine Kenntnisse und Fähigkeiten dafür aus? Sind moderne Bauteile überhaupt verfügbar? Oder sollte ich *gebrauchte* Einzelteile für mein Gerät kaufen?
 
@@ -28,13 +28,13 @@ Schauen wir uns das T440p einmal genauer an. Derzeit (Mai 2023) kann man gebrauc
 
 Das Gerät hat, bzw. hatte vor der Modernisierung:
 
-* Eine Intel Core i5-4300M CPU, ein Zweikernprozessor mit Multithreading, einem Basistakt von 2,6 GHz und einem maximalen Turbotakt von 3,3 GHz. Obwohl diese Leistung heutzutage nicht besonders beeindruckend ist, ist sie immer noch ausreichend nutzbar. Eine Besonderheit des Notebooks ist, dass die CPU gesockelt ist und daher relativ einfach ausgetauscht werden kann!
+* Eine Intel Core i5-4300M CPU, ein Zweikernprozessor mit Multithreading, einem Basistakt von 2,6 GHz und einem maximalen Turbotakt von 3,3 GHz. Obwohl die Leistung dieses Prozessors heutzutage nicht besonders beeindruckend ist, ist sie immer noch für einfache Zwecke ausreichend nutzbar. Eine Besonderheit des Notebooks ist, dass die CPU gesockelt ist und daher relativ einfach ausgetauscht werden kann!
 
 * eine Festplatte mit 7200 Umdrehungen pro Minute und 512 GB Speicherkapazität. Mit moderner Software ist diese Festplatte schlichtweg zu langsam, daher wird sie durch eine SATA-SSD ersetzt. Diese Aufrüstung ist äußerst sinnvoll und kann bei praktisch jedem Notebook problemlos und kostengünstig durchgeführt werden.
 
 * Ein 14-Zoll-TN-Display mit einer Auflösung von 1366x768 Pixeln, begrenztem Betrachtungswinkel, schlechtem Kontrast und blassen Farben. Niemand möchte damit länger arbeiten, spielen oder Videos anschauen als nötig. Das fliegt also definitv raus.
 
-* 4GB DDR3 RAM als Hauptspeicher. Je nach Betriebssystem und verwendeter Software ist das ok. Aber da eine Aufrüstung recht günstig ist, wird auch mehr RAM eingebaut. Das Gerät verfügt über zwei SODIMM-Slots, während bei modernen Notebooks der Speicheroft  fest verlötet ist und nicht erweitert werden kann.
+* 4GB DDR3 RAM als Hauptspeicher. Je nach Betriebssystem und verwendeter Software ist das ok. Aber da eine Aufrüstung recht günstig ist, wird auch mehr RAM eingebaut. Das Gerät verfügt über zwei SODIMM-Slots, während bei modernen Notebooks der Speicher oft fest verlötet ist und nicht erweitert werden kann.
 
 * eine Intel® Dualband-Wireless-AC 7260 WLAN-Karte. Glück gehabt, diese unterstützt 802.11ac und ist auch heutzutage noch absolut alltagstauglich. Einige T440p-Modelle verfügen jedoch nur über eine Intel® Wireless-N 7260, die nur 2,4 GHz und 802.11bgn unterstützt. Mit dieser Karte kann man notfalls überleben, aber der Austausch der WLAN-Karte erfordert einen komplizierten BIOS-"Hack", wenn man keine von Lenovo zertifizierte Karte verwendet. Dieses Thema wird in einem zukünftigen Beitrag behandelt.
 
