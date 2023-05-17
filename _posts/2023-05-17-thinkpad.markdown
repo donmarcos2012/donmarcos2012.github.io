@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Nachhaltig modernisieren"
+date:   2022-01-08 12:28:06 +0200
+categories: thinkpad sustainability electronics repair nachhaltigkeit notebooks aufrüsten
+---
+### "Elektroschrott" gründlich aufmöbeln
+
+Ein neuer Beitrag zum Thema Nachhaltigkeit: Aufwertung und Wiederverwendung von Notebooks.
+
+Viele Notebooks (und PCs) werden vorzeitig ausgemustert und durch brandneue Geräte ersetzt. Einige davon verstauben jahrelang im Keller, andere finden ihren Weg auf den Gebrauchtmarkt, aber viele landen auf dem Elektromüllberg - eine ökologische Katastrophe.
+
+Dabei besteht oft die Möglichkeit, angegraute Hardware zu modernisieren und für weitere Jahre zu nutzen.
+
+Anhand eines kürzlich erworbenen alten Notebooks (ein Thinkpad T440p) möchte ich zeigen, was unter Umständen möglich ist. Es ist leider kein einfacher Prozess und er erfordert die Berücksichtigung mehrerer Faktoren:
+
+* Ist eine Aufrüstung wirtschaftlich sinnvoll? Wieviel will oder kann man investieren um ein altes Gerät vor der Entsorgung zu bewahren? Möglicherweise gibt man etwas mehr Geld aus (im Vergleich zum Kauf eines Neugeräts), aber man rettet immerhin das alte Gerät und vermeidet unnötige Abfälle. Manchmal hat man sogar Glück und eine Modernisierung ist mit vergleichsweise geringem finanziellen Aufwand möglich.
+
+* Welche Komponenten *können* erneuert werden? Reichen meine Kenntnisse und Fähigkeiten dafür aus? Sind moderne Bauteile überhaupt verfügbar? Oder sollte ich *gebrauchte* Einzelteile für mein Gerät kaufen?
+
+* Wird das aufgerüstete Gerät meinen Anforderungen genügen oder wird es trotz Verbesserungen immer noch nicht leistungsfähig genug sein?
+
+Zugegebenermaßen ist das Basteln mit älterer Hardware zum Teil auch eine Frage der Leidenschaft. Mein Beispiel wird zeigen, daß die Leistungsfähigkeit des Gerätes deutlich gesteigert werden kann, aber dieses Vorhaben wird auch seinen Preis haben.
+
+Wer ein älteres Thinkpad bereits besitzt, hat offensichtlich eine gute Startposition. Wer dagegen erst einmal ein gebrauchtes Modell kaufen muss, der muss sich durch die große Flut an Angeboten kämpfen.
+
+Schauen wir uns das T440p einmal genauer an. Derzeit (Mai 2023) kann man gebrauchte Geräte mit etwas Glück von Privatpersonen recht günstig erwerben. Ich konnte eines für 85€ ergattern, das sich in einem hervorragenden äußeren Zustand befindet. Das ist also eine gute Ausgangslage.
+
+Das Gerät hat, bzw. hatte vor der Modernisierung:
+
+* Eine Intel Core i5-4300M CPU, ein Zweikernprozessor mit Multithreading, einem Basistakt von 2,6 GHz und einem maximalen Turbotakt von 3,3 GHz. Obwohl diese Leistung heutzutage nicht besonders beeindruckend ist, ist sie immer noch ausreichend nutzbar. Eine Besonderheit des Notebooks ist, dass die CPU gesockelt ist und daher relativ einfach ausgetauscht werden kann!
+
+* eine Festplatte mit 7200 Umdrehungen pro Minute und 512 GB Speicherkapazität. Mit moderner Software ist diese Festplatte schlichtweg zu langsam, daher wird sie durch eine SATA-SSD ersetzt. Diese Aufrüstung ist äußerst sinnvoll und kann bei praktisch jedem Notebook problemlos und kostengünstig durchgeführt werden.
+
+* Ein 14-Zoll-TN-Display mit einer Auflösung von 1366x768 Pixeln, begrenztem Betrachtungswinkel, schlechtem Kontrast und blassen Farben. Niemand möchte damit länger arbeiten, spielen oder Videos anschauen als nötig. Das fliegt also definitv raus.
+
+* 4GB DDR3 RAM als Hauptspeicher. Je nach Betriebssystem und verwendeter Software ist das ok. Aber da eine Aufrüstung recht günstig ist, wird auch mehr RAM eingebaut. Das Gerät verfügt über zwei SODIMM-Slots, während bei modernen Notebooks der Speicheroft  fest verlötet ist und nicht erweitert werden kann.
+
+* eine Intel® Dualband-Wireless-AC 7260 WLAN-Karte. Glück gehabt, diese unterstützt 802.11ac und ist auch heutzutage noch absolut alltagstauglich. Einige T440p-Modelle verfügen jedoch nur über eine Intel® Wireless-N 7260, die nur 2,4 GHz und 802.11bgn unterstützt. Mit dieser Karte kann man notfalls überleben, aber der Austausch der WLAN-Karte erfordert einen komplizierten BIOS-"Hack", wenn man keine von Lenovo zertifizierte Karte verwendet. Dieses Thema wird in einem zukünftigen Beitrag behandelt.
+
+* Keine dedizierte GPU. Das ist gut, denn obwohl das Thinkpad auch mit einer NVIDIA GeForce 730M erhältlich war, ist diese Grafikeinheit veraltet und bietet gegenüber der integrierten Intel HD Graphics heutzutage keine Vorteile. Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet). Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
+
+* eine Windows 7/10 Pro-Lizenz. Fast alle gebrauchten Thinkpads mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
+
+* ein DVD-Brenner. Heutzutage nur in seltenen Spezialfällen interessant, kann weg. Bei Thinkpads kann das Laufwerk durch einen sogenannten Ultrabay-Caddy ersetzt werden, in den eine 2,5-Zoll-SSD eingesetzt werden kann. Dies ist großartig, da der verfügbare Massenspeicher bei Bedarf mit wenigen Handgriffen erheblich erweitert werden kann. Es ist sogar möglich, von diesen Laufwerken zu booten. Bravo!
+
+* Eine Tastatur mit Hintergrundbeleuchtung, die nett und unter bestimmten Umständen natürlich sehr nützlich ist. Soweit ich gesehen habe, verfügen die meisten T440p-Modelle über eine solche Tastatur. Andernfalls kann sie recht einfach ausgetauscht werden. Es ist jedoch schwierig, eine gebrauchte Tastatur mit deutschem Layout in gutem Zustand und mit Hintergrundbeleuchtung zu finden. Neuware habe ich bisher nirgendwo entdeckt...
+
+* ein Touchpad ohne dedizierte Tasten ("one-click"). Dieses Touchpad ist eine herbe Enttäuschung von Lenovo. Ältere Touchpads sind um *Welten* besser, und als das T440p auf den Markt kam, erntete es schreckliche Kritiken. Eine Generation später verbaute Lenovo wieder die klassischen Touchpads, aber hier haben wir Pech. Mir persönlich ist es fast egal, ich arbeite so gut wie immer mit einer Maus und manchmal mit dem Trackpoint. Das Touchpad kann jedoch gegen ein besseres ausgetauscht werden, obwohl ich darauf verzichtet habe, da für mich keine Notwendigkeit besteht.
+
+Ein weiterer, sehr großer Vorteil von Thinkpads ist die sehr gute Dokumentation und Versorgung mit Treibern seitens Lenovo. Bevor auch nur ein Schräubchen gelöst wird, sollte sich jeder das "Hardware Maintenance Manual" für sein Modell runterladen.
+Für das T440p ist es dieses: [Thinkpad T440p Hardware Maintenance Manual][hmm-link]
+
+
+Hier wird jede einzelne Schraube und deren Position im Gerät gezeigt. Jeder Clip und jedes Käbelchen werden mit Bildern gezeigt. Mit Hilfe des HMM ist es möglich das Gerät komplett zu zerlegen. Und natürlich auch wieder zusammen zu setzen :)
+
+#### 1. Die CPU tauschen
+
+Es können im Prinzip alle "mobile CPUs" (mit Sockel FCPGA946) von Intel der vierten Generation (Haswell) verwendet werden. Eine Übersicht findet man z.B. auf [Thinkwiki.de][thinkwiki-link].
+
+Für eine Modernisierung kommt eigentlich nur ein i7 mit 4 Kernen in Frage. Etwas problematisch ist die TDP von 47W der Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt. Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternative, die erst ein Jahr später auf den Markt kam:
+
+[Core i7-4702MQ][4702-link] bzw. [Core i7-4712MQ][4712-link]
+
+Diese beiden CPUs haben eine geringere TDP von 37W sind jedoch nur minimal langsamer als die 4700/4800-Varianten.
+
+Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmarkt findet. Der 4712 ist recht teuer, der 4800 dagegen günstiger. Unterm Strich sind alle Vierkerner ok, mit den 37W-Modellen hat man etwas mehr Akkulaufzeit, mit den 47W-Varianten mehr Lüfterlärm.
+
+Zum Tausch der CPU werden die 2 Schrauben der Bodenplatte gelöst und diese entfernt (vorher selbstverständlich vom Strom trennen und den Akku herausnehmen). Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
+
+Die Schraube am CPU-Sockel aufdrehen und den Prozessor herausnehmen.
+Vorher empfiehlt es sich, den Lüfter mit einem Kosmetikpinsel von grobem Staub zu befreien. Danach hält man den Fan fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
+
+Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht.
+
+#### Das Display tauschen
+
+Ich habe lange recherchiert bis ich ein gutes Display fand, was sich zum Tausch eignet. Heutzutage kommt eigentlich nur folgendes Modell in Frage:
+
+Das Innolux N140HCG-GQ2
+
+Dies ist ein Full-HD IPS-Display mit exzellenter Bildqualität. Es steht den Displays moderner Notebooks in nichts nach und verbraucht sogar weniger Strom als andere Typen.
+
+Der einzige Nachteil ist, dass das Innolux keine Halteklammern für die Schraubbefestigung hat. Es gibt aber Anbieter, die das Display mit bereits angeklebten Halteklammern (ohne Aufpreis) anbieten. D.h. man kann es 1:1 gegen das alte Display tauschen.
+
+Ein Anbieter ist z.B.:
+
+[xelent-store][Innolux-link]
+
+
+Zum Austausch wie üblich Strom und Akku trennen, danach den Displayrahmen vorsichtig ausklipsen (siehe HMM!). Zum aushebeln verwende ich Gitarren-Plektren in verschiedenen Stärken. Sollte ein Plektrum brechen, ist das nicht weiter tragisch. Wichtig ist, daß die Halteclips des Displayrahmens überleben.
+
+Es empfiehlt sich dabei, von unten anzufangen und sich Clip für Clip nach oben zu arbeiten. Ist der Rahmen erstmal enfernt, ist die Hauptarbeit erledigt. Die vier Schrauben des Displays (je zwei oben und unten) lösen und das gesamte Panel vorsichtig auf der Tastatur ablegen (am besten vorher ein sauberes Tuch auf die Tasten legen).
+
+Der Anschluss des Displays ist manchmal mit einem transparenten Klebeband fixiert, dies entfernt man vorsichtig.
+
+Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erkennbar), diese wird vorsichtig (mit Feinwerkzeug oder Fingerspitzengefühl) nach oben geklappt. Dann kann man das Notebook-seitige Anschlusskabel sorgfältig nach hinten schieben und das alte Display entfernen.
+
+Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit Pinzette und Zange aufschieben, die Halteklammer runterklappen (wenn diese nicht einrastet, sitzt der Stecker nicht richtig). Die Verbindung kann mit einem Streifen Tesafilm gesichert werden. Display hochklappen und vorsichtig festschrauben.
+
+Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit sanfter Gewalt wieder hereingedrückt. Fertig.
+
+#### Eine SSD einbauen
+
+
+Created with [jekyll][jekyll-link]
+
+[jekyll-link]: https://jekyllrb.com/
+
+[hmm-link]: https://download.lenovo.com/pccbbs/mobiles_pdf/t440_hmm_en.pdf
+
+[thinkwiki-link]https://thinkwiki.de/T440p#Technische_Daten
+
+[4702-link] https://www.intel.de/content/www/de/de/products/sku/75119/intel-core-i74702mq-processor-6m-cache-up-to-3-20-ghz/specifications.html
+
+[4712-link] https://www.intel.de/content/www/de/de/products/sku/78933/intel-core-i74712mq-processor-6m-cache-up-to-3-30-ghz/specifications.html
+
+[Innolux-link] https://www.xelent-store.de/Innolux-N140HCG-GQ2-400cd-Low-Power-Display-72-NTSC
