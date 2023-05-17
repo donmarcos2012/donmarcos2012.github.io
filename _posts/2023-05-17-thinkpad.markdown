@@ -109,10 +109,10 @@ Created with [jekyll][jekyll-link]
 
 [hmm-link]: https://download.lenovo.com/pccbbs/mobiles_pdf/t440_hmm_en.pdf
 
-[thinkwiki-link]https://thinkwiki.de/T440p#Technische_Daten
+[thinkwiki-link]: https://thinkwiki.de/T440p#Technische_Daten
 
-[4702-link] https://www.intel.de/content/www/de/de/products/sku/75119/intel-core-i74702mq-processor-6m-cache-up-to-3-20-ghz/specifications.html
+[4702-link]: https://www.intel.de/content/www/de/de/products/sku/75119/intel-core-i74702mq-processor-6m-cache-up-to-3-20-ghz/specifications.html
 
-[4712-link] https://www.intel.de/content/www/de/de/products/sku/78933/intel-core-i74712mq-processor-6m-cache-up-to-3-30-ghz/specifications.html
+[4712-link]: https://www.intel.de/content/www/de/de/products/sku/78933/intel-core-i74712mq-processor-6m-cache-up-to-3-30-ghz/specifications.html
 
-[Innolux-link] https://www.xelent-store.de/Innolux-N140HCG-GQ2-400cd-Low-Power-Display-72-NTSC
+[Innolux-link]: https://www.xelent-store.de/Innolux-N140HCG-GQ2-400cd-Low-Power-Display-72-NTSC
