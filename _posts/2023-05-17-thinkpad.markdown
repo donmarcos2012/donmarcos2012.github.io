@@ -11,24 +11,25 @@ Ein neuer Beitrag zum Thema Nachhaltigkeit: Aufwertung und Wiederverwendung von 
 Viele Notebooks (und PCs) werden vorzeitig ausgemustert und durch brandneue Geräte ersetzt. Einige davon verstauben jahrelang im Keller, andere finden ihren Weg auf den Gebrauchtmarkt, aber viele landen auf dem Elektromüllberg - eine ökologische Katastrophe.
 
 Dabei besteht oft die Möglichkeit, angegraute Hardware zu modernisieren und für weitere Jahre zu nutzen.
+Auch bei einer Erstanschaffung ist ein Gebrauchtkauf immerhin eine Überlegung wert - ein gebrauchtes "Profi"-Modell kann einem neuen Modell der unteren Preisklasse manchmal überlegen sein.
 
 Anhand eines kürzlich erworbenen alten Notebooks (ein Thinkpad T440p) möchte ich zeigen, was unter Umständen möglich ist. Es ist leider kein einfacher Prozess und er erfordert die Berücksichtigung mehrerer Faktoren:
 
-* Ist eine Aufrüstung wirtschaftlich sinnvoll? Wieviel will oder kann man investieren um ein altes Gerät vor der Entsorgung zu bewahren? Ein Aufrüstung kann kostspielig werden aber man rettet immerhin das alte Gerät und vermeidet unnötige Abfälle. Manchmal hat man sogar Glück und eine Modernisierung ist mit vergleichsweise geringem finanziellen Aufwand möglich.
+* Ist eine Aufrüstung wirtschaftlich sinnvoll? Wieviel will oder kann man investieren um ein altes Gerät vor der Entsorgung zu bewahren? Eine Aufrüstung kann kostspielig werden aber man rettet immerhin das alte Gerät und vermeidet unnötige Abfälle. Manchmal hat man sogar Glück und eine Modernisierung ist mit vergleichsweise geringem finanziellen Aufwand möglich.
 
-* Welche Komponenten *können* erneuert werden? Reichen meine Kenntnisse und Fähigkeiten dafür aus? Sind moderne Bauteile überhaupt verfügbar? Oder sollte ich *gebrauchte* Einzelteile für mein Gerät kaufen?
+* Welche Komponenten *können* erneuert werden? Reichen meine Kenntnisse und Fähigkeiten dafür aus? Sind moderne Bauteile überhaupt verfügbar? Oder muss ich auf *gebrauchte* Einzelteile zurückgreifen? Mitunter will man aus Kostengründen sogar gebrauchte Teile einkaufen, bei manchen Komponenten ist das nichtmal nachteilig (Speichermodule z.B. sind praktisch "ewig" benutzbar).
 
 * Wird das aufgerüstete Gerät meinen Anforderungen genügen oder wird es trotz Verbesserungen immer noch nicht leistungsfähig genug sein?
 
 Zugegebenermaßen ist das Basteln mit älterer Hardware zum Teil auch eine Frage der Leidenschaft. Mein Beispiel wird zeigen, daß die Leistungsfähigkeit des Gerätes deutlich gesteigert werden kann, aber dieses Vorhaben wird auch seinen Preis haben.
 
-Wer ein älteres Thinkpad bereits besitzt, hat offensichtlich eine gute Startposition. Wer dagegen erst einmal ein gebrauchtes Modell kaufen muss, der muss sich durch die große Flut an Angeboten kämpfen.
+Wer ein älteres Thinkpad bereits besitzt, hat offensichtlich eine gute Ausgangsposition. Wer dagegen erst einmal ein gebrauchtes Modell kaufen muss, der muss sich durch die große Flut an Angeboten kämpfen.
 
 Schauen wir uns das T440p einmal genauer an. Derzeit (Mai 2023) kann man gebrauchte Geräte mit etwas Glück von Privatpersonen recht günstig erwerben. Ich konnte eines für 85€ ergattern, das sich in einem hervorragenden äußeren Zustand befindet. Das ist also eine gute Ausgangslage.
 
 Das Gerät hat, bzw. hatte vor der Modernisierung:
 
-* Eine Intel Core i5-4300M CPU, ein Zweikernprozessor mit Multithreading, einem Basistakt von 2,6 GHz und einem maximalen Turbotakt von 3,3 GHz. Obwohl die Leistung dieses Prozessors heutzutage nicht besonders beeindruckend ist, ist sie immer noch für einfache Zwecke ausreichend nutzbar. Eine Besonderheit des Notebooks ist, dass die CPU gesockelt ist und daher relativ einfach ausgetauscht werden kann!
+* Eine Intel Core i5-4200M CPU, ein Zweikernprozessor mit Multithreading, einem Basistakt von 2,5 GHz und einem maximalen Turbotakt von 3,1 GHz. Obwohl die Leistung dieses Prozessors heutzutage nicht besonders beeindruckend ist, ist sie immer noch für einfache Zwecke ausreichend. Eine Besonderheit des Notebooks ist, dass die CPU gesockelt ist und daher relativ einfach ausgetauscht werden kann!
 
 * eine Festplatte mit 7200 Umdrehungen pro Minute und 512 GB Speicherkapazität. Mit moderner Software ist diese Festplatte schlichtweg zu langsam, daher wird sie durch eine SATA-SSD ersetzt. Diese Aufrüstung ist äußerst sinnvoll und kann bei praktisch jedem Notebook problemlos und kostengünstig durchgeführt werden.
 
@@ -36,15 +37,17 @@ Das Gerät hat, bzw. hatte vor der Modernisierung:
 
 * 4GB DDR3 RAM als Hauptspeicher. Je nach Betriebssystem und verwendeter Software ist das ok. Aber da eine Aufrüstung recht günstig ist, wird auch mehr RAM eingebaut. Das Gerät verfügt über zwei SODIMM-Slots, während bei modernen Notebooks der Speicher oft fest verlötet ist und nicht erweitert werden kann.
 
-* eine Intel® Dualband-Wireless-AC 7260 WLAN-Karte. Glück gehabt, diese unterstützt 802.11ac und ist auch heutzutage noch absolut alltagstauglich. Einige T440p-Modelle verfügen jedoch nur über eine Intel® Wireless-N 7260, die nur 2,4 GHz und 802.11bgn unterstützt. Mit dieser Karte kann man notfalls überleben, aber der Austausch der WLAN-Karte erfordert einen komplizierten BIOS-"Hack", wenn man keine von Lenovo zertifizierte Karte verwendet. Dieses Thema wird in einem zukünftigen Beitrag behandelt.
+* eine Intel® Dualband-Wireless-AC 7260 WLAN-Karte mit Bluetooth 4.0. Glück gehabt, diese unterstützt 802.11ac und ist auch heutzutage noch absolut alltagstauglich. Einige T440p-Modelle verfügen jedoch nur über eine Intel® Wireless-N 7260, die nur 2,4 GHz und 802.11bgn unterstützt. Mit dieser Karte kann man notfalls überleben, aber der Austausch der WLAN-Karte erfordert einen komplizierten BIOS-"Hack", wenn man keine von Lenovo zertifizierte Karte verwendet. Dieses Thema wird in einem zukünftigen Beitrag behandelt.
 
-* Keine dedizierte GPU. Das ist gut, denn obwohl das Thinkpad auch mit einer NVIDIA GeForce 730M erhältlich war, ist diese Grafikeinheit veraltet und bietet gegenüber der integrierten Intel HD Graphics heutzutage keine Vorteile. Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet). Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
+* Keine dedizierte GPU. Das ist gut, denn obwohl das Thinkpad auch mit einer NVIDIA GeForce 730M erhältlich war, ist diese Grafikeinheit veraltet und bietet gegenüber der integrierten Intel HD Graphics keine nennenswerte Vorteile (bestenfalls bei einigen sehr alten Spielen).
+
+Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet). Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
 
 * eine Windows 7/10 Pro-Lizenz. Fast alle gebrauchten Thinkpads sind mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
 
 * ein DVD-Brenner. Heutzutage nur in seltenen Spezialfällen interessant, kann weg. Bei Thinkpads kann das Laufwerk durch einen sogenannten Ultrabay-Caddy ersetzt werden, in den eine 2,5-Zoll-SSD eingesetzt werden kann. Dies ist großartig, da der verfügbare Massenspeicher bei Bedarf mit wenigen Handgriffen erheblich erweitert werden kann. Es ist sogar möglich, von diesen Laufwerken zu booten. Bravo!
 
-* Eine Tastatur mit Hintergrundbeleuchtung, die nett und unter bestimmten Umständen natürlich sehr nützlich ist. Soweit ich gesehen habe, verfügen die meisten T440p-Modelle über eine solche Tastatur. Andernfalls kann sie recht einfach ausgetauscht werden. Es ist jedoch schwierig, eine gebrauchte Tastatur mit deutschem Layout in gutem Zustand und mit Hintergrundbeleuchtung zu finden. Neuware habe ich bisher nirgendwo entdeckt...
+* Eine Tastatur mit Hintergrundbeleuchtung, die nett und unter bestimmten Umständen natürlich sehr nützlich ist. Soweit ich gesehen habe, verfügen die meisten T440p-Modelle über eine solche Tastatur. Andernfalls kann sie recht einfach ausgetauscht werden. Es ist jedoch schwierig, eine gebrauchte Tastatur mit deutschem Layout in gutem Zustand mit Hintergrundbeleuchtung zu finden. Neuware habe ich bisher nirgendwo entdeckt...
 
 * ein Touchpad ohne dedizierte Tasten ("one-click"). Dieses Touchpad ist eine herbe Enttäuschung von Lenovo. Ältere Touchpads sind um *Welten* besser, und als das T440p auf den Markt kam, erntete es schreckliche Kritiken. Eine Generation später verbaute Lenovo wieder die klassischen Touchpads, aber hier haben wir Pech. Mir persönlich ist es fast egal, ich arbeite so gut wie immer mit einer Maus und manchmal mit dem Trackpoint. Das Touchpad kann jedoch gegen ein besseres ausgetauscht werden, obwohl ich darauf verzichtet habe, da für mich keine Notwendigkeit besteht.
 
@@ -58,7 +61,7 @@ Hier wird jede einzelne Schraube und deren Position im Gerät gezeigt. Jeder Cli
 
 Es können im Prinzip alle "mobile CPUs" (mit Sockel FCPGA946) von Intel der vierten Generation (Haswell) verwendet werden. Eine Übersicht findet man z.B. auf [Thinkwiki.de][thinkwiki-link].
 
-Für eine Modernisierung kommt eigentlich nur ein i7 mit 4 Kernen in Frage. Etwas problematisch ist die TDP von 47W der Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt. Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternative, die erst ein Jahr später auf den Markt kam:
+Für eine Modernisierung kommen eigentlich nur die 4-Kern-CPUs in Frage, diese bieten auch heutzutage für viele Anwendungsfälle mindestens zufriedenstellende Leistung. Etwas problematisch ist die TDP von 47W der Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt. Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternative, die erst ein Jahr später auf den Markt kam:
 
 [Core i7-4702MQ][4702-link] bzw. [Core i7-4712MQ][4712-link]
 
