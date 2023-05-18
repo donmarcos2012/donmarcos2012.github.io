@@ -69,12 +69,15 @@ Diese beiden CPUs haben eine geringere TDP von 37W sind jedoch nur minimal langs
 
 Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmarkt findet. Der 4712 ist recht teuer, der 4800 dagegen günstiger. Unterm Strich sind alle Vierkerner ok, mit den 37W-Modellen hat man etwas mehr Akkulaufzeit, mit den 47W-Varianten mehr Lüfterlärm.
 
-Zum Tausch der CPU werden die 2 Schrauben der Bodenplatte gelöst und diese entfernt (vorher selbstverständlich vom Strom trennen und den Akku herausnehmen). Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
+Benötigtes Werkzeug: Kreuzschraubendreher PH1, Torxschraubendreher T8, gekröpfte Pinzette, kleine Flachzange, Wattepads oder Kaffeefilterpapier, Isopropanol 70%, Kosmetikpinsel, Druckluftspraydose oder Blasebalg, Wärmeleitpaste.
 
-Die Schraube am CPU-Sockel aufdrehen und den Prozessor herausnehmen.
-Vorher empfiehlt es sich, den Lüfter mit einem Kosmetikpinsel von grobem Staub zu befreien. Danach hält man den Fan fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
+Zum Tausch der CPU das Gerät vom Strom trennen und den Akku herausnehmen. Ich hoffe das HMM liegt bereit, bzw. wird auf einem Zweitgerät angezeigt und die richtige Seite ist aufgeschlagen? Die 2 Schrauben der Bodenplatte lösen und diese entfernen. Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM!), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
 
-Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht.
+Den Lüfter und die Luftaustrittsschlitze mit einem Kosmetikpinsel von grobem Staub zu befreien. Danach hält man den Propeller fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
+
+Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozessor herausnehmen.
+
+Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht (diese sind sogar von 1 bis 4 nummeriert).
 
 #### 2. Das Display tauschen
 
@@ -90,14 +93,19 @@ Ein Anbieter ist z.B.:
 
 [xelent-store][Innolux-link]
 
+Es gibt viele weitere Anbieter von Displaypanels, beim Kauf sollte man aber darauf achten, daß wirklich ein original von Innolux verkauft wird. Oft findet man irgendwo in der Beschreibung "kompatibel zu ..." und dann ist nicht wirklich klar was man bekommt. In diesem Fall sollte man schauen, ob wenigstens ein Datenblatt zum Download angeboten wird, oder man schreibt den Händler an und bittet um genaue Angaben.
 
-Zum Austausch wie üblich Strom und Akku trennen, danach den Displayrahmen vorsichtig ausklipsen (siehe HMM!). Zum aushebeln verwende ich Gitarren-Plektren in verschiedenen Stärken. Sollte ein Plektrum brechen, ist das nicht weiter tragisch. Wichtig ist, daß die Halteclips des Displayrahmens überleben.
+Benötigtes Werkzeug: Kreuzschraubendreher PH1, Gitarren-Plektren (soft, mittel, hart), Flachzange, Pinzette, weiches Tuch
 
-Es empfiehlt sich dabei, von unten anzufangen und sich Clip für Clip nach oben zu arbeiten. Ist der Rahmen erstmal enfernt, ist die Hauptarbeit erledigt. Die vier Schrauben des Displays (je zwei oben und unten) lösen und das gesamte Panel vorsichtig auf der Tastatur ablegen (am besten vorher ein sauberes Tuch auf die Tasten legen).
+Zum Austausch wie üblich Strom und Akku trennen, HMM aufschlagen versteht sich von selbst, und das Tuch auf die Tastatur legen. Danach den Displayrahmen vorsichtig ausklipsen. Zum aushebeln verwende ich Gitarren-Plektren in verschiedenen Stärken. Sollte ein Plektrum brechen, ist das nicht weiter tragisch. Wichtig ist, daß die Halteclips des Displayrahmens überleben.
+
+Es empfiehlt sich dabei, von den Außenseiten rechts und links anzufangen. Probieren welche Plektren am besten zwischen Displayrahmen und -deckel passen und dann Clip für Clip nach oben und unten entlang des Rahmens arbeiten. Das ist ein Geduldsspiel...
+
+Ist der Rahmen erstmal enfernt, ist die Drecks- äh Hauptarbeit erledigt. Die vier Schrauben des Displays (je zwei oben und unten) lösen und das gesamte Panel vorsichtig auf der Tastatur ablegen (am besten vorher ein sauberes Tuch auf die Tasten legen).
 
 Der Anschluss des Displays ist manchmal mit einem transparenten Klebeband fixiert, dies entfernt man vorsichtig.
 
-Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erkennbar), diese wird vorsichtig (mit Feinwerkzeug oder Fingerspitzengefühl) nach oben geklappt. Dann kann man das Notebook-seitige Anschlusskabel sorgfältig nach hinten schieben und das alte Display entfernen.
+Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erkennbar), diese wird vorsichtig (mit Feinwerkzeug oder Fingernagel) nach oben geklappt. Dann kann man das Notebook-seitige Anschlusskabel sorgfältig nach hinten schieben und das alte Display entfernen.
 
 Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit Pinzette und Zange aufschieben, die Halteklammer runterklappen (wenn diese nicht einrastet, sitzt der Stecker nicht richtig). Die Verbindung kann mit einem Streifen Tesafilm gesichert werden. Display hochklappen und vorsichtig festschrauben.
 
@@ -107,6 +115,11 @@ Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit san
 
 Fortsetzung folgt
 
+#### 4. Hauptspeicher erweitern
+
+#### 5.a Windows installieren und konfigurieren
+
+#### 5.b EndeavourOS installieren und konfigurieren
 
 Created with [jekyll][jekyll-link]
 
