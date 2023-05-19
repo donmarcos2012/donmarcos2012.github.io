@@ -40,36 +40,36 @@ Das Gerät hat, bzw. hatte vor der Modernisierung:
 * eine Intel® Dualband-Wireless-AC 7260 WLAN-Karte mit Bluetooth 4.0. Glück gehabt, diese unterstützt 802.11ac und ist auch heutzutage noch absolut alltagstauglich. Einige T440p-Modelle verfügen jedoch nur über eine Intel® Wireless-N 7260, die nur 2,4 GHz und 802.11bgn unterstützt. Mit dieser Karte kann man notfalls überleben, aber der Austausch der WLAN-Karte erfordert einen komplizierten BIOS-"Hack", wenn man keine von Lenovo zertifizierte Karte verwendet. Dieses Thema wird in einem zukünftigen Beitrag behandelt.
 
 * Keine dedizierte GPU. Das ist gut, denn obwohl das Thinkpad auch mit einer NVIDIA GeForce 730M erhältlich war, ist diese Grafikeinheit veraltet und bietet gegenüber der integrierten Intel HD Graphics keine nennenswerte Vorteile (bestenfalls bei einigen sehr alten Spielen).
+Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet).
+Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
 
-Beim Kauf eines gebrauchten Geräts sind Varianten ohne dedizierte Grafikeinheit auf jeden Fall vorzuziehen, da die Grafikeinheit weder ausgebaut noch aufgerüstet werden kann (sie ist fest auf dem Mainboard verlötet). Interessant ist jedoch der massivere Kühlkörper der Modelle mit dedizierter Grafikeinheit, der als "Upgrade" für den Standardkühler verwendet werden kann - dazu später mehr wenn wir den serienmäßigen Kühler mit zusätzlichen Kupferlamellen ausstatten.
-
-* eine Windows 7/10 Pro-Lizenz. Fast alle gebrauchten Thinkpads sind mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
+* eine Windows 7 bzw. 10 Pro-Lizenz. Fast alle gebrauchten Thinkpads sind mit einer gültigen Windows-Lizenz ausgestattet. Das ist offensichtlich ein großer Vorteil für diejenigen, die Windows verwenden möchten.
 
 * ein DVD-Brenner. Heutzutage nur in seltenen Spezialfällen interessant, kann weg. Bei Thinkpads kann das Laufwerk durch einen sogenannten Ultrabay-Caddy ersetzt werden, in den eine 2,5-Zoll-SSD eingesetzt werden kann. Dies ist großartig, da der verfügbare Massenspeicher bei Bedarf mit wenigen Handgriffen erheblich erweitert werden kann. Es ist sogar möglich, von diesen Laufwerken zu booten. Bravo!
 
-* Eine Tastatur mit Hintergrundbeleuchtung, die nett und unter bestimmten Umständen natürlich sehr nützlich ist. Soweit ich gesehen habe, verfügen die meisten T440p-Modelle über eine solche Tastatur. Andernfalls kann sie recht einfach ausgetauscht werden. Es ist jedoch schwierig, eine gebrauchte Tastatur mit deutschem Layout in gutem Zustand mit Hintergrundbeleuchtung zu finden. Neuware habe ich bisher nirgendwo entdeckt...
+* Eine Tastatur mit Hintergrundbeleuchtung, die nett und unter Umständen natürlich sehr nützlich ist. Soweit ich gesehen habe, verfügen die meisten T440p-Modelle über eine solche Tastatur. Andernfalls kann sie recht einfach ausgetauscht werden. Es ist jedoch schwierig, eine gebrauchte Tastatur mit deutschem Layout in gutem Zustand mit Hintergrundbeleuchtung zu finden. Neuware habe ich bisher nirgendwo entdeckt...
 
-* ein Touchpad ohne dedizierte Tasten ("one-click"). Dieses Touchpad ist eine herbe Enttäuschung von Lenovo. Ältere Touchpads sind um *Welten* besser, und als das T440p auf den Markt kam, erntete es schreckliche Kritiken. Eine Generation später verbaute Lenovo wieder die klassischen Touchpads, aber hier haben wir Pech. Mir persönlich ist es fast egal, ich arbeite so gut wie immer mit einer Maus und manchmal mit dem Trackpoint. Das Touchpad kann jedoch gegen ein besseres ausgetauscht werden, obwohl ich darauf verzichtet habe, da für mich keine Notwendigkeit besteht.
+* ein Touchpad ohne dedizierte Tasten ("one-click"). Als das T440p auf den Markt kam, erntete speziell dieses Touchpad miserable Kritiken. Der Druck auf Lenovo war so groß, dass eine Generation später wieder die klassischen Touchpads eingebaut wurden. Ich persönlich finde das Touchpad akzeptabel, man kann sich daran gewöhnen. Allerdings arbeite ich so oft es geht mit einer Maus und manchmal mit dem Trackpoint.
+Ich verstehe aber, dass viele Anwender ein Touchpad mit separaten Tasten für Links-, Rechts- und Mittelklick bevorzugen. Das Touchpad kann gegen ein besseres ausgetauscht werden, obwohl ich darauf verzichtet habe, da für mich keine Notwendigkeit besteht.
 
 Ein weiterer, sehr großer Vorteil von Thinkpads ist die sehr gute Dokumentation und Versorgung mit Treibern seitens Lenovo. Bevor auch nur ein Schräubchen gelöst wird, sollte sich jeder das "Hardware Maintenance Manual" für sein Modell runterladen.
 Für das T440p ist es dieses: [Thinkpad T440p Hardware Maintenance Manual][hmm-link]
-
 
 Hier wird jede einzelne Schraube und deren Position im Gerät gezeigt. Jeder Clip und jedes Käbelchen werden mit Bildern gezeigt. Mit Hilfe des HMM ist es möglich das Gerät komplett zu zerlegen. Und natürlich auch wieder zusammen zu setzen :)
 
 #### 1. Die CPU tauschen
 
-Es können im Prinzip alle "mobile CPUs" (mit Sockel FCPGA946) von Intel der vierten Generation (Haswell) verwendet werden. Eine Übersicht findet man z.B. auf [Thinkwiki.de][thinkwiki-link].
+Benötigtes Werkzeug: Kreuzschraubendreher PH1, Torxschraubendreher T8, gekröpfte Pinzette, kleine Flachzange, Wattepads oder Kaffeefilterpapier, Isopropanol 70%, Kosmetikpinsel, Druckluftspraydose oder Blasebalg, Wärmeleitpaste.
 
-Für eine Modernisierung kommen eigentlich nur die 4-Kern-CPUs in Frage, diese bieten auch heutzutage für viele Anwendungsfälle mindestens zufriedenstellende Leistung. Etwas problematisch ist die TDP von 47W der Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt. Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternative, die erst ein Jahr später auf den Markt kam:
+Es können im Prinzip alle "mobile CPUs" (für Sockel FCPGA946) von Intel der vierten Generation (Haswell) verwendet werden. Eine Übersicht findet man z.B. auf [Thinkwiki.de][thinkwiki-link].
+
+Für eine Modernisierung kommen eigentlich nur die 4-Kern-CPUs in Frage, diese bieten auch heutzutage für viele Anwendungsfälle mindestens zufriedenstellende Leistung. Etwas problematisch ist die TDP von 47W dieser Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt (und wurde zum Teil auch mit diesen i7 ausgeliefert). Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät unter Last sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternativ-CPUs, die erst ein Jahr später auf den Markt kamen:
 
 [Core i7-4702MQ][4702-link] bzw. [Core i7-4712MQ][4712-link]
 
-Diese beiden CPUs haben eine geringere TDP von 37W sind jedoch nur minimal langsamer als die 4700/4800-Varianten.
+Diese Prozessoren haben eine geringere TDP von 37W sind jedoch nur minimal langsamer als die 4700/4800-Varianten.
 
-Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmarkt findet. Der 4712 ist recht teuer, der 4800 dagegen günstiger. Unterm Strich sind alle Vierkerner ok, mit den 37W-Modellen hat man etwas mehr Akkulaufzeit, mit den 47W-Varianten mehr Lüfterlärm.
-
-Benötigtes Werkzeug: Kreuzschraubendreher PH1, Torxschraubendreher T8, gekröpfte Pinzette, kleine Flachzange, Wattepads oder Kaffeefilterpapier, Isopropanol 70%, Kosmetikpinsel, Druckluftspraydose oder Blasebalg, Wärmeleitpaste.
+Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmarkt findet. Der 4712MQ ist recht teuer, der 4800 dagegen günstiger. Unterm Strich sind alle Vierkerner ok, mit den 37W-Modellen hat man etwas mehr Akkulaufzeit, mit den 47W-Varianten mehr Lüfterlärm.
 
 Zum Tausch der CPU das Gerät vom Strom trennen und den Akku herausnehmen. Ich hoffe das HMM liegt bereit, bzw. wird auf einem Zweitgerät angezeigt und die richtige Seite ist aufgeschlagen? Die 2 Schrauben der Bodenplatte lösen und diese entfernen. Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM!), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
 
@@ -81,11 +81,13 @@ Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und 
 
 #### 2. Das Display tauschen
 
+Benötigtes Werkzeug: Kreuzschraubendreher PH1, viele Gitarren-Plektren (soft, mittel, hart), Flachzange, Pinzette, weiches Tuch
+
 Ich habe lange recherchiert bis ich ein gutes Display fand, was sich zum Tausch eignet. Heutzutage kommt eigentlich nur folgendes Modell in Frage:
 
 Das Innolux N140HCG-GQ2
 
-Dies ist ein Full-HD IPS-Display mit exzellenter Bildqualität. Es steht den Displays moderner Notebooks in nichts nach und verbraucht sogar weniger Strom als andere Typen.
+Dies ist ein Full-HD IPS-Display mit exzellenter Bildqualität. Es steht den Displays moderner Notebooks in nichts nach und verbraucht sogar weniger Strom als andere Typen, dabei ist es zu 100% mit dem T440p kompatibel.
 
 Der einzige Nachteil ist, dass das Innolux keine Halteklammern für die Schraubbefestigung hat. Es gibt aber Anbieter, die das Display mit bereits angeklebten Halteklammern (ohne Aufpreis) anbieten. D.h. man kann es 1:1 gegen das alte Display tauschen.
 
@@ -94,8 +96,6 @@ Ein Anbieter ist z.B.:
 [xelent-store][Innolux-link]
 
 Es gibt viele weitere Anbieter von Displaypanels, beim Kauf sollte man aber darauf achten, daß wirklich ein original von Innolux verkauft wird. Oft findet man irgendwo in der Beschreibung "kompatibel zu ..." und dann ist nicht wirklich klar was man bekommt. In diesem Fall sollte man schauen, ob wenigstens ein Datenblatt zum Download angeboten wird, oder man schreibt den Händler an und bittet um genaue Angaben.
-
-Benötigtes Werkzeug: Kreuzschraubendreher PH1, Gitarren-Plektren (soft, mittel, hart), Flachzange, Pinzette, weiches Tuch
 
 Zum Austausch wie üblich Strom und Akku trennen, HMM aufschlagen versteht sich von selbst, und das Tuch auf die Tastatur legen. Danach den Displayrahmen vorsichtig ausklipsen. Zum aushebeln verwende ich Gitarren-Plektren in verschiedenen Stärken. Sollte ein Plektrum brechen, ist das nicht weiter tragisch. Wichtig ist, daß die Halteclips des Displayrahmens überleben.
 
@@ -109,13 +109,19 @@ Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erk
 
 Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit Pinzette und Zange aufschieben, die Halteklammer runterklappen (wenn diese nicht einrastet, sitzt der Stecker nicht richtig). Die Verbindung kann mit einem Streifen Tesafilm gesichert werden. Display hochklappen und vorsichtig festschrauben.
 
-Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit sanfter Gewalt wieder hereingedrückt. Fertig.
+Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit sanfter Gewalt hereingedrückt. Fertig.
 
 #### 3. Eine SSD einbauen
 
-Fortsetzung folgt
+Benötigtes Werkzeug: Kreuzschraubendreher PH1
+
+Der Austausch ist sehr einfach und das HMM zeigt eigentlich alles wesentliche. Untere Bodenabdeckung entfernen, die Schraube am SSD/HDD-Halterahmen lösen, nach oben anheben und abziehen. Der Haltenrahmen ist nur am Laufwerk angeklipst und wird vorsichtig gelöst. Das neue Laufwerk in den Rahmen einklipsen, einsetzen und festschrauben.
 
 #### 4. Hauptspeicher erweitern
+
+Benötigtes Werkzeug: Kreuzschraubendreher PH1
+
+Auch diese Modifikation ist sehr einfach: Nach entfernen der Bodenplatte liegen die beiden RAM-Slots bereits frei und neue SO-DIMMs können eingesetzt werden. Unterstützt werden DDR3L (low-voltage, 1,35V) DIMMs mit 1600MHz. Schnellere Module funktionieren zwar auch, aber da diese meist deutlich teurer sind und der Geschwindigkeitszuwachs kaum messbar ist, kann man sich das sparen. Der maximale Speicherausbau ist 2 mal 8 GB. Empfehlenswert sind Module von Samsung, Crucial/Micron oder SK Hynix.
 
 #### 5.a Windows installieren und konfigurieren
 
