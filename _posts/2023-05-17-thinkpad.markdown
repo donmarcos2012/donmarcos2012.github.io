@@ -73,7 +73,7 @@ Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmar
 
 Zum Tausch der CPU das Gerät vom Strom trennen und den Akku herausnehmen. Ich hoffe das HMM liegt bereit, bzw. wird auf einem Zweitgerät angezeigt und die richtige Seite ist aufgeschlagen? Die 2 Schrauben der Bodenplatte lösen und diese entfernen. Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM!), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
 
-Den Lüfter und die Luftaustrittsschlitze mit einem Kosmetikpinsel von grobem Staub zu befreien. Danach hält man den Propeller fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
+Den Lüfter und die Luftaustrittsschlitze mit einem Kosmetikpinsel von grobem Staub befreien. Danach hält man den Propeller fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
 
 Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozessor herausnehmen.
 
