@@ -63,7 +63,7 @@ Benötigtes Werkzeug: Kreuzschraubendreher PH1, Torxschraubendreher T8, gekröpf
 
 Es können im Prinzip alle "mobile CPUs" (für Sockel FCPGA946) von Intel der vierten Generation (Haswell) verwendet werden. Eine Übersicht findet man z.B. auf [Thinkwiki.de][thinkwiki-link].
 
-Für eine Modernisierung kommen eigentlich nur die 4-Kern-CPUs in Frage, diese bieten auch heutzutage für viele Anwendungsfälle mindestens zufriedenstellende Leistung. Etwas problematisch ist die TDP von 47W dieser Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt (und wurde zum Teil auch mit diesen i7 ausgeliefert). Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät unter Last sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber eine tolle Alternativ-CPUs, die erst ein Jahr später auf den Markt kamen:
+Für eine Modernisierung kommen eigentlich nur die 4-Kern-CPUs in Frage, diese bieten auch heutzutage für viele Anwendungsfälle mindestens zufriedenstellende Leistung. Etwas problematisch ist die TDP von 47W dieser Vierkerner. Für die Hardware (Spannungsregler etc.) ist das kein Problem, das T440p ist darauf ausgelegt (und wurde zum Teil auch mit diesen i7 ausgeliefert). Die Kühlung jedoch stößt an ihre Grenzen, im Betrieb wird das Gerät unter Last sehr warm und der Lüfter macht sich lautstark bemerkbar. Es gibt aber attraktive Alternativen, die erst ein Jahr später auf den Markt kamen:
 
 [Core i7-4702MQ][4702-link] bzw. [Core i7-4712MQ][4712-link]
 
