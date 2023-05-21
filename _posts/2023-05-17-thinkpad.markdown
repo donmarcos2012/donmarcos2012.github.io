@@ -73,6 +73,8 @@ Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmar
 
 Zum Tausch der CPU das Gerät vom Strom trennen und den Akku herausnehmen. Ich hoffe das HMM liegt bereit, bzw. wird auf einem Zweitgerät angezeigt und die richtige Seite ist aufgeschlagen? Die 2 Schrauben der Bodenplatte lösen und diese entfernen. Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM!), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
 
+![raspberry image](/images/cpu_kuehler.jpg)
+
 Den Lüfter und die Luftaustrittsschlitze mit einem Kosmetikpinsel von grobem Staub befreien. Danach hält man den Propeller fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
 
 Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozessor herausnehmen.
@@ -106,6 +108,9 @@ Ist der Rahmen erstmal enfernt, ist die Drecks- äh Hauptarbeit erledigt. Die vi
 Der Anschluss des Displays ist manchmal mit einem transparenten Klebeband fixiert, dies entfernt man vorsichtig.
 
 Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erkennbar), diese wird vorsichtig (mit Feinwerkzeug oder Fingernagel) nach oben geklappt. Dann kann man das Notebook-seitige Anschlusskabel sorgfältig nach hinten schieben und das alte Display entfernen.
+
+![raspberry image](/images/eDP_connector.jpg)
+(der embedded DisplayPort-Anschluss mit Haltebügel)
 
 Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit Pinzette und Zange aufschieben, die Halteklammer runterklappen (wenn diese nicht einrastet, sitzt der Stecker nicht richtig). Die Verbindung kann mit einem Streifen Tesafilm gesichert werden. Display hochklappen und vorsichtig festschrauben.
 
