@@ -114,6 +114,8 @@ Die Steckverbindung ist mit einer Halteklammer gesichert (mit einer Lupe gut erk
 
 Das neue Display wird in umgekehrter Reihenfolge montiert: Steckverbindung mit Pinzette und Zange aufschieben, die Halteklammer runterklappen (wenn diese nicht einrastet, sitzt der Stecker nicht richtig). Die Verbindung kann mit einem Streifen Tesafilm gesichert werden. Display hochklappen und vorsichtig festschrauben.
 
+Jetzt genauestens die Position der Kabel unterhalb des Displays kontrollieren: Diese müssen wieder sehr sorgfältig in den vorgegebenen Führungen verlegt werden! Steht auch nur ein Kabel zuweit vor, wird es beim Einbau des Rahmens gequetscht und der Displayrahmen wird nie sauber einrasten, sondern sich unschön wölben.
+
 Danach wird der Rahmen wieder eingeklipst (oben anfangen) und alle Clips mit sanfter Gewalt hereingedrückt. Fertig.
 
 #### 3. Eine SSD einbauen
