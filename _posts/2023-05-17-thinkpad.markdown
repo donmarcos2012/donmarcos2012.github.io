@@ -180,9 +180,9 @@ Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91�
 
 Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 
-| Lüfter             | Leerlauf | mprime Zeit bis 91° |
 
-| :------------------------ | --------------: | -------------------------: |
+| Lüfter             | Leerlauf | mprime Zeit bis 91° |
+|:------------------------|--------------:|-------------------------:|
 | Standardlüfter | 52° | 30 Sekunden |
 | Lüfter mit GPU-Kühlung | 50° | 42 Sekunden |
 
