@@ -81,7 +81,7 @@ Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozess
 
 Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht (diese sind sogar von 1 bis 4 nummeriert).
 
-Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpaste aufgetragen hatte und diese hat sich durch den Druck des Kühlkörpers bis zu den SMD-Bauteilen neben dem CPU-Kern verbreitete. Zum Glück war es wohl keine elektrisch leitende Paste, sonst wäre das vermutlich ein Totalschaden geworden. Daher noch einmal der Hinweis: Sparsam auftragen und nichtleitende Paste verwenden (ich verwendete hier die Paste NT-H2 von Noctua):
+Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpaste aufgetragen hatte und diese hat sich durch den Druck des Kühlkörpers bis zu den SMD-Bauteilen neben dem CPU-Kern verbreitet. Zum Glück war es wohl keine elektrisch leitende Paste, sonst wäre das vermutlich ein Totalschaden geworden. Daher noch einmal der Hinweis: Sparsam auftragen und nichtleitende Paste verwenden (ich verwendete hier die Paste NT-H2 von Noctua):
 
 ![](/images/03_thermal_paste.jpg)
 
@@ -181,20 +181,20 @@ Danach wieder sparsam(!) neue Paste auftragen und den neuen Kühler einbauen.
 
 Die Raumtemperatur betrug zu den Testzeitpunkten 26,6°C beim Test des Standardkühlers und 26,9°C beim Testlauf des dGPU-Kühlers, also nur ein geringer Unterschied.
 
-Ermittelt wurden die CPU-Temperaturen eines aktuellen SuSE-Linux Tumbleweed mit KDE-Desktop während einer längeren Leerlaufphase (mind. 15 Minuten, Lüfter aus) und eines Belastungstests mit Prime95 (alle 4 Kerne mit Hyperthreading und Torture-Test "Small FFT").
+Ermittelt wurden die CPU-Temperaturen eines aktuellen SUSE-Linux Tumbleweed mit KDE-Desktop während einer längeren Leerlaufphase (mind. 15 Minuten, Lüfter aus) und eines Belastungstests mit Prime95 (alle 4 Kerne mit Hyperthreading und Torture-Test "Small FFT").
 
 Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91° erreicht und auf 2,4 GHz gedrosselt wird.
 
 Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 
-| Lüfter             | Leerlauf | mprime Zeit bis 91° |
+| Lüfter             | Leerlauf |       mprime Zeit bis 91° |
 |:------------------------|--------------:|------------------------:|
 | Standardlüfter | 52° | 30 Sekunden |
 | Lüfter mit GPU-Kühlung | 50° | 42 Sekunden |
 {: .tablelines}
 
 
-Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser, *still*.
+Zwar bringt der Prime95-Belastungstest beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser, *still*.
 
 Mit [thinkfan][thinkfan-link] könnte man die Lüftersteuerung noch weiter verfeinern.
 
@@ -228,7 +228,7 @@ Kühlsystem:   40€
 
 Macht unterm Strich knapp 350€, was natürlich eine stolze Summe ist.
 
-Schaut man sich jedoch die Preise für Neugeräte an bekommt man (in der 14-Zoll-Klasse) für das Geld ein Notebook mit Pentium Silver N5030 der in vielen Benchmarks dem Haswell-Core i7 unterlegen ist(!), nur 4GB RAM, lediglich 128GB SSD-Speicherplatz und bestenfalls eine Windows 10S-Lizenz hat (wenn man Windows verwenden will).
+Schaut man sich jedoch die Preise für Neugeräte an bekommt man (in der 14-Zoll-Klasse) für das Geld ein Notebook mit Pentium Silver N5030 der in vielen Benchmarks dem Haswell-Core i7 *unterlegen* ist, nur 4GB RAM, lediglich 128GB SSD-Speicherplatz und bestenfalls eine Windows 10S-Lizenz hat (wenn man Windows verwenden will).
 
 Bei den 15-Zoll-Notebooks erhält man immerhin 8GB RAM, ein Pentium Gold-Prozessor (nur 2 Kerne) und evtl. Windows 11 Home.
 Außerdem hat man dann eine Tastatur der Billigst-Klasse...
