@@ -93,6 +93,7 @@ Die Leistung konnte im Vergleich zur i5 aber deutlich gesteigert werden. Hier be
 
 
 | CPU | Single core | Multi core |
+
 | :------- | --------: | ---------: |
 | i5-4200M (3,1 GHz) | 986 | 1999 |
 | i7-4810MQ (3,8 GHz) | 1230 | 3495 |
@@ -181,7 +182,8 @@ Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91�
 Die Temperatur wurde 체ber /proc/acpi/ibm/thermal ausgelesen.
 
 | L체fter             | Leerlauf | mprime Zeit bis 91째 |
-| ------------------------ | -------------- | ------------------------- |
+
+| :------------------------ | --------------: | -------------------------: |
 | Standardl체fter | 52째 | 30 Sekunden |
 | L체fter mit GPU-K체hlung | 50째 | 42 Sekunden |
 
