@@ -191,6 +191,7 @@ Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 |:------------------------|--------------:|------------------------:|
 | Standardlüfter | 52° | 30 Sekunden |
 | Lüfter mit GPU-Kühlung | 50° | 42 Sekunden |
+{: .tablelines}
 
 
 Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser still (mit [thinkfan][thinkfan-link]) könnte man die Lüftersteuerung noch weiter verfeinern).
