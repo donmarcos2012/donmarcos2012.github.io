@@ -81,7 +81,7 @@ Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozess
 
 Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht (diese sind sogar von 1 bis 4 nummeriert).
 
-Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpaste aufgetragen hatte und diese hat sich durch den Druck des Kühlkörpers bis zu den Kontakten neben dem CPU-Kern verbreitet. Zum Glück war es wohl keine elektrisch leitende Paste, sonst wäre das ein Totalschaden geworden. Daher noch einmal der Hinweis: Sparsam auftragen und nichtleitende Paste verwenden (ich verwendete hier die Paste NT-H2 von Noctua):
+Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpaste aufgetragen hatte und diese hat sich durch den Druck des Kühlkörpers bis zu den SMD-Bauteilen neben dem CPU-Kern verbreitet. Zum Glück war es wohl keine elektrisch leitende Paste, sonst wäre das vermutlich ein Totalschaden geworden. Daher noch einmal der Hinweis: Sparsam auftragen und nichtleitende Paste verwenden (ich verwendete hier die Paste NT-H2 von Noctua):
 
 ![](/images/03_thermal_paste.jpg)
 
@@ -210,20 +210,26 @@ Den Variante mit dGPU-Kühler will ich durch anlöten von Kupferplätchen weiter
 
 #### 7. Fazit und Kosten
 
-Das T440p ist mein Arbeitsnotebook geworden. Ich nutze es fürs Studium (Java Programmierung mit Eclipse), zur Bearbeitung meiner Fotografien, Schreiben von Latex-Dokumenten, Emails und weitere Office-Anwendungen.
+Das T440p ist mein Arbeitsnotebook geworden. Ich nutze es fürs Studium (Java Programmierung mit Eclipse), zur Bearbeitung meiner Fotografien, Schreiben von Latex-Dokumenten, Emails und weiteren Office-Anwendungen.
 
 Die Kosten beliefen sich auf:
 
 Gebrauchtgerät: 85€
+
 neues Display: 89€
+
 Upgrade auf 16 GB: 54€
+
 gebrauchte Vierkern-CPU: 45€
+
 WD Blue SA510 500GB, SATA: 35€
+
 Kühlsystem:   40€
 
 Macht unterm Strich knapp 350€, was natürlich eine stolze Summe ist.
 
 Schaut man sich jedoch die Preise für Neugeräte an bekommt man (in der 14-Zoll-Klasse) für das Geld ein Notebook mit Pentium Silver N5030 der in vielen Benchmarks dem Haswell-Core i7 unterlegen ist(!), nur 4GB RAM, lediglich 128GB SSD-Speicherplatz und bestenfalls eine Windows 10S-Lizenz (wenn man Windows verwenden will).
+
 Bei den 15-Zoll-Notebooks erhält man immerhin 8GB RAM, ein Pentium Gold-Prozessor (nur 2 Kerne) und evtl. Windows 11 Home.
 Außerdem hat man dann eine Tastatur der Billigst-Klasse...
 
