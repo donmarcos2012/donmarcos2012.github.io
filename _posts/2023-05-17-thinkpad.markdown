@@ -11,7 +11,7 @@ Ein neuer Beitrag zum Thema Nachhaltigkeit: Aufwertung und Wiederverwendung von 
 Viele Notebooks (und PCs) werden vorzeitig ausgemustert und durch brandneue Geräte ersetzt. Einige davon verstauben jahrelang im Keller, andere finden ihren Weg auf den Gebrauchtmarkt, aber viele landen auf dem Elektromüllberg - eine ökologische Katastrophe.
 
 Dabei besteht oft die Möglichkeit, angegraute Hardware zu modernisieren und für weitere Jahre zu nutzen.
-Auch bei einer Erstanschaffung ist ein Gebrauchtkauf immerhin eine Überlegung wert - ein gebrauchtes "Profi"-Modell kann einem neuen Modell der unteren Preisklasse manchmal überlegen sein.
+Auch bei einer Erstanschaffung ist ein Gebrauchtkauf eine Überlegung wert - ein gebrauchtes "Profi"-Modell kann einem neuen Modell der unteren Preisklasse manchmal überlegen sein.
 
 Anhand eines kürzlich erworbenen alten Notebooks (ein Thinkpad T440p) möchte ich zeigen, was unter Umständen möglich ist. Es ist leider kein einfacher Prozess und er erfordert die Berücksichtigung mehrerer Faktoren:
 
@@ -73,13 +73,32 @@ Welche CPU man verwendet hängt aber auch davon ab, was man auf dem Gebrauchtmar
 
 Zum Tausch der CPU das Gerät vom Strom trennen und den Akku herausnehmen. Ich hoffe das HMM liegt bereit, bzw. wird auf einem Zweitgerät angezeigt und die richtige Seite ist aufgeschlagen? Die 2 Schrauben der Bodenplatte lösen und diese entfernen. Dann liegt auch schon fast die gesamte Hardware frei. Man entfernt mit Pinzetten oder Spitzzangen vorsichtig den Stecker des Lüfters (siehe HMM!), löst die vier Schrauben des Kühlkörpers und kann die gesamte Kühlereinheit vorsichtig herausnehmen.
 
-![raspberry image](/images/cpu_kuehler.jpg)
+![](/images/cpu_kuehler.jpg)
 
 Den Lüfter und die Luftaustrittsschlitze mit einem Kosmetikpinsel von grobem Staub befreien. Danach hält man den Propeller fest und pustet den Lüfter gründlich mit Druckluft (Blasebalg oder Spraydose) aus. Die Kontakfläche des Kühlkörpers mit Wattepads und Isopropanol von Resten der Wärmeleitpaste befreien. Manche nehmen Kaffeefilterpapier, das funktioniert auch gut. Wichtig ist das der Kühlkörper blitzblank ist.
 
 Die Torx-Schraube am CPU-Sockel aufdrehen (eine halbe Umdrehung) und den Prozessor herausnehmen.
 
 Dann kann man die neue CPU einsetzen (auf die korrekte Orientierung achten) und wieder mit einer halben Umdrehung festschrauben. Sparsam neue Wärmeleitpaste auftragen und alles wieder zusammen bauen, das wars auch schon. Darauf achten, daß man die 4 Schrauben des Kühlers über Kreuz nach und nach festzieht (diese sind sogar von 1 bis 4 nummeriert).
+
+Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpaste aufgetragen hatte und diese hat sich durch den Druck des Kühlkörpers bis zu den Kontakten neben dem CPU-Kern verbreitet. Zum Glück war es wohl keine elektrisch leitende Paste, sonst wäre das ein Totalschaden geworden. Daher noch einmal der Hinweis: Sparsam auftragen und nichtleitende Paste verwenden (ich verwendete hier die Paste NT-H2 von Noctua):
+
+![](/images/03_thermal_paste.jpg)
+
+
+##### Resultat:
+
+Die Gebrauchtpreise für eine Core i7-4712MQ CPU waren mir zu hoch (über 90€). Ich habe für verschmerzbare 45€ eine Core i7-4810MQ ergattern können, die den Nachteil hat, daß sie das Kühlsystem schnell an die Grenzen bringt.
+Die Leistung konnte im Vergleich zur i5 aber deutlich gesteigert werden. Hier beispielsweise Benchmarks mit Geekbench 6:
+
+| **CPU**             | **single core** | **multi core** |
+|---------------------|-----------------|----------------|
+| i5-4200M (3,1 GHz)  |             986 |           1999 |
+| i7-4810MQ (3,8 GHz) |            1230 |           3495 |
+
+Vor allem die Mehrkernleistung hat sich deutlich verbessert.
+Allerdings kommt das Kühlsystem schnell an seine Grenzen, mehr dazu im Kapitel zum "Kühler-Tuning".
+
 
 #### 2. Das Display tauschen
 
@@ -130,6 +149,51 @@ Benötigtes Werkzeug: Kreuzschraubendreher PH1
 
 Auch diese Modifikation ist sehr einfach: Nach entfernen der Bodenplatte liegen die beiden RAM-Slots bereits frei und neue SO-DIMMs können eingesetzt werden. Unterstützt werden DDR3L (low-voltage, 1,35V) DIMMs mit 1600MHz. Schnellere Module funktionieren zwar auch, aber da diese meist deutlich teurer sind und der Geschwindigkeitszuwachs kaum messbar ist, kann man sich das sparen. Der maximale Speicherausbau ist 2 mal 8 GB. Empfehlenswert sind Module von Samsung, Crucial/Micron oder SK Hynix.
 
+#### 5. Das Kühlsystem verbessern (in zwei Akten)
+
+##### Erster Akt:
+
+Benötigte Teile: Eine Lüfter-Kühlkörper-Einheit eines Thinkpads T440p, das mit einer dedizierten GPU ausgestattet ist. Diese hat eine zweite Heatpipe und einen Kühlkörper für die GPU.
+Durch die größere Masse und die zweite Heatpipe wird die Wärmeleitung von der CPU etwas beschleunigt. Resultat: Im Leerlauf bleibt die CPU etwas kühler, der Lüfter muss im Betrieb nicht ganz so oft anspringen und es dauert bei hoher Last länger, bis die maximal zulässige Kerntermperatur erreicht wird.
+Die Lenovo Teilenummern für diesen dGPU-Kühler sind:
+
+* 00HM903 (Lüfter von Toshiba)
+* 04X3916 (Lüfter von AVC?)
+* 04X3918 (Deltalüfter)
+
+Benötigtes Werkzeug: gekröpfte Pinzette, kleine Flach-/Spitzzange, Wattepads oder Kaffeefilterpapier, Isopropanol 70% oder Kontakt WL (von Kontakt-Chemie), Wärmeleitpaste.
+
+Ähnlich wie beim Tausch der CPU wird die Lüfter-Kühlereinheit ausgebaut und die CPU von der alten Wärmeleitpaste mit Filterpapier, Wattepads und Isopropanol (bzw. Kontakt WL) befreit.
+Danach wieder sparsam(!) neue Paste auftragen und den neuen Kühler einbauen.
+
+![](/images/01_dgpu_heatsink.jpg)
+(hier erkennt man den zweiten, kleineren Kühler für die GPU und die zweite Heatpipe)
+
+##### Resultat:
+
+Die Raumtemperatur betrug zu den Testzeitpunkten 26,6°C beim Test des Standardkühlers und 26,9°C beim Testlauf des dGPU-Kühlers, also nur ein geringer Unterschied.
+
+Ermittelt wurden die CPU-Temperaturen eines aktuellen SuSE-Linux Tumbleweed mit KDE-Desktop während einer längeren Leerlaufphase (mind. 15 Minuten, Lüfter aus) und eines Belastungstests mit Prime95 (alle 4 Kerne mit Hyperthreading und Torture-Test "Small FFT").
+
+Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91° erreicht und auf 2,4 GHz zurück gedrosselt wird.
+
+Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
+
+| **Lüfter**             | **Leerlauf** | **mprime Zeit bis 91°** |
+|------------------------|--------------|-------------------------|
+| Standardlüfter         |          52° |             30 Sekunden |
+| Lüfter mit GPU-Kühlung |          50° |             42 Sekunden |
+
+
+Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser still (mit [thinkfan][thinkfan-link]) könnte man die Lüftersteuerung noch weiter verfeinern).
+
+#####  Zweiter Akt (in Planung):
+
+![](/images/02_copper.jpg)
+Den dGPU-Lüfter will ich durch anlöten von Kupferplätchen weiter verbessern.
+
+
+
 #### 5.a Windows installieren und konfigurieren
 
 #### 5.b EndeavourOS installieren und konfigurieren
@@ -147,3 +211,5 @@ Created with [jekyll][jekyll-link]
 [4712-link]: https://www.intel.de/content/www/de/de/products/sku/78933/intel-core-i74712mq-processor-6m-cache-up-to-3-30-ghz/specifications.html
 
 [Innolux-link]: https://www.xelent-store.de/Innolux-N140HCG-GQ2-400cd-Low-Power-Display-72-NTSC
+
+[thinkfan-link]: https://github.com/vmatare/thinkfan
