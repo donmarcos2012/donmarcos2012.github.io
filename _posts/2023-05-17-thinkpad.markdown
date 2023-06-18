@@ -93,8 +93,7 @@ Die Leistung konnte im Vergleich zur i5 aber deutlich gesteigert werden. Hier be
 
 
 | CPU | Single core | Multi core |
-
-| :------- | --------: | ---------: |
+|:-------|--------:|---------:|
 | i5-4200M (3,1 GHz) | 986 | 1999 |
 | i7-4810MQ (3,8 GHz) | 1230 | 3495 |
 
