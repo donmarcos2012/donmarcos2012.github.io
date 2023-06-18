@@ -194,18 +194,19 @@ Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 {: .tablelines}
 
 
-Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser still (mit [thinkfan][thinkfan-link]) könnte man die Lüftersteuerung noch weiter verfeinern).
+Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser, *still*.
+
+Mit [thinkfan][thinkfan-link]) könnte man die Lüftersteuerung noch weiter verfeinern.
 
 #####  Zweiter Akt (in Planung):
 
 ![](/images/02_copper.jpg)
-Den dGPU-Lüfter will ich durch anlöten von Kupferplätchen weiter verbessern.
-
+Den dGPU-Kühler will ich durch anlöten von Kupferplätchen weiter verbessern.
 
 
 #### 5.a Windows installieren und konfigurieren
 
-#### 5.b EndeavourOS installieren und konfigurieren
+#### 5.b ppenSuSE Tumbleweed installieren und konfigurieren
 
 Created with [jekyll][jekyll-link]
 
