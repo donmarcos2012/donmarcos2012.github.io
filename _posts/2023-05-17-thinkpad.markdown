@@ -91,11 +91,18 @@ Im folgenden Bild ist zu sehen, daß ein Vorbesitzer einmal zuviel Wärmeleitpas
 Die Gebrauchtpreise für eine Core i7-4712MQ CPU waren mir zu hoch (über 90€). Ich habe für verschmerzbare 45€ eine Core i7-4810MQ ergattern können, die den Nachteil hat, daß sie das Kühlsystem schnell an die Grenzen bringt.
 Die Leistung konnte im Vergleich zur i5 aber deutlich gesteigert werden. Hier beispielsweise Benchmarks mit Geekbench 6:
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
 
-| CPU  k| Single core | Multi core |
+
+| CPU | Single core | Multi core |
 |:-------|--------:|---------:|
 | i5-4200M (3,1 GHz) | 986 | 1999 |
 | i7-4810MQ (3,8 GHz) | 1230 | 3495 |
+{: .tablelines}
 
 Vor allem die Mehrkernleistung hat sich deutlich verbessert.
 Allerdings kommt das Kühlsystem schnell an seine Grenzen, mehr dazu im Kapitel zum "Kühler-Tuning".
@@ -180,9 +187,8 @@ Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91�
 
 Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 
-
 | Lüfter             | Leerlauf | mprime Zeit bis 91° |
-|:------------------------|--------------:|-------------------------:|
+|:------------------------|--------------:|------------------------:|
 | Standardlüfter | 52° | 30 Sekunden |
 | Lüfter mit GPU-Kühlung | 50° | 42 Sekunden |
 
