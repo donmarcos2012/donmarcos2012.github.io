@@ -183,7 +183,7 @@ Die Raumtemperatur betrug zu den Testzeitpunkten 26,6°C beim Test des Standardk
 
 Ermittelt wurden die CPU-Temperaturen eines aktuellen SuSE-Linux Tumbleweed mit KDE-Desktop während einer längeren Leerlaufphase (mind. 15 Minuten, Lüfter aus) und eines Belastungstests mit Prime95 (alle 4 Kerne mit Hyperthreading und Torture-Test "Small FFT").
 
-Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91° erreicht und auf 2,4 GHz zurück gedrosselt wird.
+Beim Belastungstest wurde die Zeit ermittelt bis die CPU eine Temperatur von 91° erreicht und auf 2,4 GHz gedrosselt wird.
 
 Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 
@@ -196,17 +196,38 @@ Die Temperatur wurde über /proc/acpi/ibm/thermal ausgelesen.
 
 Zwar bringt der Prime95-Belastungstests beide Kühlsysteme schnell an ihre Grenzen. Aber bei alltäglichen Anwendungen hat man mit dem besseren Kühlsystem mehr Reserven und der Lüfter ist, z.B. beim Schreiben dieser Zeilen mit geöffnetem Browser, *still*.
 
-Mit [thinkfan][thinkfan-link]) könnte man die Lüftersteuerung noch weiter verfeinern.
+Mit [thinkfan][thinkfan-link] könnte man die Lüftersteuerung noch weiter verfeinern.
 
 #####  Zweiter Akt (in Planung):
 
 ![](/images/02_copper.jpg)
-Den dGPU-Kühler will ich durch anlöten von Kupferplätchen weiter verbessern.
+Den Variante mit dGPU-Kühler will ich durch anlöten von Kupferplätchen weiter verbessern.
 
 
-#### 5.a Windows installieren und konfigurieren
+#### 6.a Windows installieren und konfigurieren
 
-#### 5.b ppenSuSE Tumbleweed installieren und konfigurieren
+#### 6.b openSUSE Tumbleweed installieren und konfigurieren
+
+#### 7. Fazit und Kosten
+
+Das T440p ist mein Arbeitsnotebook geworden. Ich nutze es fürs Studium (Java Programmierung mit Eclipse), zur Bearbeitung meiner Fotografien, Schreiben von Latex-Dokumenten, Emails und weitere Office-Anwendungen.
+
+Die Kosten beliefen sich auf:
+
+Gebrauchtgerät: 85€
+neues Display: 89€
+Upgrade auf 16 GB: 54€
+gebrauchte Vierkern-CPU: 45€
+WD Blue SA510 500GB, SATA: 35€
+Kühlsystem:   40€
+
+Macht unterm Strich knapp 350€, was natürlich eine stolze Summe ist.
+
+Schaut man sich jedoch die Preise für Neugeräte an bekommt man (in der 14-Zoll-Klasse) für das Geld ein Notebook mit Pentium Silver N5030 der in vielen Benchmarks dem Haswell-Core i7 unterlegen ist(!), nur 4GB RAM, lediglich 128GB SSD-Speicherplatz und bestenfalls eine Windows 10S-Lizenz (wenn man Windows verwenden will).
+Bei den 15-Zoll-Notebooks erhält man immerhin 8GB RAM, ein Pentium Gold-Prozessor (nur 2 Kerne) und evtl. Windows 11 Home.
+Außerdem hat man dann eine Tastatur der Billigst-Klasse...
+
+Also da bin ich mit meinem Umbau mehr als zufrieden :)
 
 Created with [jekyll][jekyll-link]
 
